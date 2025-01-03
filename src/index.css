@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Sección superior */
+  .navbar-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111827;
+  }
+  
+  .mis-redes-parte-izquierda a img,
+  .informacion-ligas-parte-derecha a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .mi-gmail {
+    display: inline-flex;
+    align-items: center;
+    color: #f3f4f6;
+  }
+  
+  .mi-gmail img {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+  }
+  
+  .informacion-ligas-parte-derecha a {
+    display: inline-flex;
+    align-items: center;
+    color: #f3f4f6;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  
+  .informacion-ligas-parte-derecha a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección central */
+  .navbar-central {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid #374151;
+  }
+  
+  .logotipo .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f3f4f6;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .navbar-menu-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu-item .menu-item-link {
+    color: #f3f4f6;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar-menu-item .menu-item-link:hover {
+    color: #10b981;
+    border-bottom: 2px solid #10b981;
+  }
+  
+  /* Sección inferior */
+  .navbar-inferior {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #374151;
+  }
+  
+  .navbar-inferior p {
+    margin: 0;
+    font-size: 14px;
+    color: #f3f4f6;
+  }
+  
+  .navbar-inferior a {
+    color: #10b981;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar-inferior a:hover {
+    text-decoration: underline;
+  }

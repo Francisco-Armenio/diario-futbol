@@ -6,14 +6,14 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='navbar-superior'>
-                <div className='mis-redes'>
-                    <a href="/">a<img src="./imagenes/linkedin" alt="" /></a>
-                    <a href="/">b<img src="" alt="" /></a>
-                    <a href="/">c<img src="" alt="" /></a>
+                <div className='mis-redes-parte-izquierda'>
+                    <a href="https://www.linkedin.com/in/francisco-armenio/" className='perfil-linkedin'><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="Logo de Linkedin" /></a>
+                    <a href="https://github.com/Francisco-Armenio" className='perfil-github'><img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="Logo de Github" /></a>
+                    <p className='mi-gmail'>franciscoarmenio1@gmail.com<img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Logo de Gmail" /></p>
                 </div>
-                <div className='informacion-ligas'>
-                    <Link to="/" className='estadisticas'>Estadiscticas</Link>
-                    <Link to="/" className='agenda'>Agenda</Link>
+                <div className='informacion-ligas-parte-derecha'>
+                    <Link to="/" className='estadisticas'><img src="https://cdn-icons-png.flaticon.com/128/3121/3121571.png" alt="Estadisticas" />Estadiscticas</Link>
+                    <Link to="/" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/55/55281.png" alt="Agenda" />Agenda</Link>
                 </div>
             </div>
             <div className='navbar-central'>
