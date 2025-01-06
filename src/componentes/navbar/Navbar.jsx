@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const Navbar = () => {
     return (
         <div className='navbar'>
@@ -12,8 +11,8 @@ const Navbar = () => {
                     <p className='mi-gmail'>franciscoarmenio1@gmail.com<img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Logo de Gmail" /></p>
                 </div>
                 <div className='informacion-ligas-parte-derecha'>
-                    <Link to="/" className='estadisticas'><img src="https://cdn-icons-png.flaticon.com/128/3121/3121571.png" alt="Estadisticas" />Estadiscticas</Link>
-                    <Link to="/" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/55/55281.png" alt="Agenda" />Agenda</Link>
+                    <Link to="/" className='estadisticas'><img src="https://cdn-icons-png.flaticon.com/128/15594/15594544.png" alt="Estadisticas" />Estadiscticas</Link>
+                    <Link to="/" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/2738/2738169.png" alt="Agenda" />Agenda</Link>
                 </div>
             </div>
             <div className='navbar-central'>
