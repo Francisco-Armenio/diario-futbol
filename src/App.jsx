@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
-import NoticiaCentral from './componentes/NoticiaCentral';
+import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/noticiaCentral" element={<NoticiaCentral />} />
+        <Route path="/" element={<NoticiasPaginaPrincipal />} />
       </Routes>
     </BrowserRouter>
   );

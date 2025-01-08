@@ -126,7 +126,7 @@ body {
 
 /* Sección inferior */
 .navbar-inferior {
-  background-color: #161b22; /* Fondo oscuro */
+  background-color: #161b22; 
   display: flex;
   align-items: center;
   gap: 10px;
@@ -157,11 +157,10 @@ body {
 /*Noticia central*/
 
 
-/* Estilo para la tarjeta de la noticia */
 .noticia-card {
   display: inline-block;
-  padding-left: 30px; /* Padding solo en la izquierda */
-  padding-right: 30px; /* Padding solo en la derecha */
+  padding-left: 30px; 
+  padding-right: 30px; 
   width: 100%;
   max-width: 100%;
   margin: 20px auto;
@@ -171,7 +170,7 @@ body {
 .noticia-contenido {
   position: relative;
   width: 100%;
-  height: 450px; /* Aumenté la altura para hacer la imagen más grande */
+  height: 450px; 
   overflow: hidden;
 }
 
@@ -179,7 +178,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: right center; /* Esto mueve la imagen hacia la derecha */
+  object-position: right center; 
 }
 
 .titulo-noticia {
