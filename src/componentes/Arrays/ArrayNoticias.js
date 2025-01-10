@@ -14,4 +14,4 @@ const noticias = [
     },
 ];
 
-export default noticias; // Exportación por defecto
+export default noticias; 
