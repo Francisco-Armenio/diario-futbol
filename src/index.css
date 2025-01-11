@@ -197,3 +197,119 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
+/*tabla de primera divicion*/
+
+.estadisticas-primera-divicion {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+}
+
+.tabla-de-posiciones {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.listado {
+  background-color: #343a40;
+  color: white;
+}
+
+.categoria th {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.listado-de-equipos {
+  background-color: #ffffff;
+}
+
+.datos-de-equipos {
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.3s;
+}
+
+.datos-de-equipos:hover {
+  background-color: #f1f3f5;
+}
+
+.datos-de-equipos td {
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+.imagen-de-club img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.puntaje, .favor, .contra, .diferencial {
+  font-weight: bold;
+  color: #212529;
+}
+
+.puntos {
+  background-color: #ffc107;
+  color: #343a40;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Equipos destacados */
+.equipo-destacado-azul {
+  background-color: #cce5ff; /* Azul claro */
+  color: #004085; /* Azul oscuro para el texto */
+  font-weight: bold;
+}
+
+.equipo-destacado-rojo {
+  background-color: #f8d7da; /* Rojo claro */
+  color: #721c24; /* Rojo oscuro para el texto */
+  font-weight: bold;
+}
+
+/* Otros estilos para transición y hover */
+.datos-de-equipos {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.datos-de-equipos:hover {
+  background-color: #e2e6ea; /* Gris claro al pasar el mouse */
+}
+
+
+@media (max-width: 768px) {
+  .titulo-principal {
+      font-size: 1.5rem;
+  }
+
+  .categoria th, .datos-de-equipos td {
+      font-size: 0.75rem;
+      padding: 5px;
+  }
+
+  .imagen-de-club img {
+      width: 30px;
+      height: 30px;
+  }
+}
