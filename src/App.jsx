@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import './App.css';
+import './componentes/Diseño/Navbar.css';
+import "./componentes/Diseño/NoticiasPaginaPrincipal.css"
+import "./componentes/Diseño/EstadisticasPrimeraArgentina.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
 import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';

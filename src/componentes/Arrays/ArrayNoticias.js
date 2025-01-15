@@ -1,7 +1,58 @@
 const noticias = [
     {
         id: 1,
-        titulo: "Descubren una nueva especie de unicornio en Argentina",
+        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
+        minititulo: "hola",
+        titulo: "dadwdwa",
+        contenido: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
+        autor: "Juan Pérez",
+        fecha: "2025-01-07",
+        categoria: "Ciencia",
+        likes: 0,
+    },
+    {
+        id: 2,
+        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
+        minititulo: "hola",
+        titulo: "dadwdwa",
+        contenido: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
+        autor: "Juan Pérez",
+        fecha: "2025-01-07",
+        categoria: "Ciencia",
+        likes: 10,
+    },
+    {
+        id: 3,
+        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
+        minititulo: "hola",
+        titulo: "dadwdwa",
+        contenido: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
+        autor: "Juan Pérez",
+        fecha: "2025-01-07",
+        categoria: "Ciencia",
+        likes: 0,
+    },
+    {
+        id: 4,
+        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
+        minititulo: "hola",
+        titulo: "dadwdwa",
+        contenido: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
+        autor: "Juan Pérez",
+        fecha: "2025-01-07",
+        categoria: "Ciencia",
+        likes: 0,
+    },
+];
+
+export default noticias; 
+
+
+/*{
+        id: 1,
+        imagen: "",
+        minititulo: "Descubren una nueva especie de unicornio en Argentina",
+        titulo: "",
         resumen: "Científicos aseguran que el hallazgo podría cambiar la historia.",
         contenido: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
         autor: "Juan Pérez",
@@ -11,7 +62,4 @@ const noticias = [
         likes: 0,
         comentarios: [],
         destacado: false,
-    },
-];
-
-export default noticias; 
+    },*/ 

@@ -1,0 +1,89 @@
+.estadisticas-primera-divicion {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2rem;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.tabla-de-posiciones {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.listado {
+    background-color: #343a40;
+    color: white;
+}
+
+.listado th {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.datos-de-equipos {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.datos-de-equipos:hover {
+    background-color: #f1f1f1;
+}
+
+.equipo-destacado-azul {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.equipo-destacado-rojo {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.informacion-del-equipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.imagen-de-club {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nombre-de-club {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.tabla-de-posiciones td {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .tabla-de-posiciones {
+        font-size: 0.8rem;
+    }
+
+    .imagen-de-club {
+        width: 30px;
+        height: 30px;
+    }
+}

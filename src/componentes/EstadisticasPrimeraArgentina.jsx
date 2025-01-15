@@ -35,9 +35,9 @@ const EstadisticasPrimeraArgentina = () => {
                                 key={equipo.id}
                             >
                                 <td className='posicion'>{equipo.posicion}</td>
-                                <td className='imagen-de-club'>
-                                    <img src={equipo.imagen} alt="" />
-                                    <h2 className='nombre-de-club'>{equipo.nombre}</h2>
+                                <td className='informacion-del-equipo'>
+                                    <img className='imagen-de-club' src={equipo.imagen} alt={equipo.nombre} />
+                                    <span className='nombre-de-club'>{equipo.nombre}</span>
                                 </td>
                                 <td className='partidos-jugados'>{equipo.jugados}</td>
                                 <td className='partidos-ganados'>{equipo.ganados}</td>

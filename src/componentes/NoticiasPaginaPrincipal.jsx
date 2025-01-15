@@ -1,23 +1,28 @@
 import React from 'react';
 import noticias from './Arrays/ArrayNoticias';
+import { Link } from 'react-router-dom';
 
 const NoticiasPaginaPrincipal = () => {
     return (
-        <div>
-            <h1>Noticias</h1>
-            <div>
-                {noticias.map((noticia) => (
-                    <div key={noticia.id}>
-                        <h2>{noticia.titulo}</h2>
-                        <p>{noticia.resumen}</p>
-                        <img src={noticia.imagenUrl} alt={noticia.titulo} />
-                        <p>Autor: {noticia.autor}</p>
-                        <p>Fecha: {noticia.fecha}</p>
-                        <button>Leer más</button>
+        <Link className='noticias-principales'>
+            {noticias.map((noticia) => (
+                <div className='card-de-noticia' key={noticia.id}>
+                    <img className='imagen-de-la-noticia' src={noticia.imagen} alt="" />
+                    <div className='informacion-de-noticia'>
+                        <div className='texto-superior-de-noticia'>
+                            <p className='minititulo'>{noticia.minititulo}</p>
+                            <p className='fecha'>{noticia.fecha}</p>
+                        </div>
+                        <h2 className='titulo-noticia'>{noticia.titulo}</h2>
+                        <p className='contenido-de-noticia'>{noticia.contenido}</p>
+                        <div className='texto-inferior-de-noticia'>
+                            <p className='autor'>por {noticia.autor}</p>
+                            <p className='likes'><img className='img-de-likes' src="https://cdn-icons-png.flaticon.com/128/18280/18280312.png" alt="like" /> {noticia.likes}</p>
+                        </div>
                     </div>
-                ))}
-            </div>
-        </div>
+                </div>
+            ))}
+        </Link>
     );
 };
 

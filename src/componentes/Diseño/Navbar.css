@@ -1,0 +1,144 @@
+.navbar {
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Sección superior */
+.navbar-superior {
+    background: linear-gradient(45deg, #0d1117, #161b22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #c9d1d9;
+}
+
+.mis-redes-parte-izquierda {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mis-redes-parte-izquierda a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.mis-redes-parte-izquierda a img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.mi-gmail {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.mi-gmail img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.informacion-ligas-parte-derecha {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacion-ligas-parte-derecha a {
+    color: #58a6ff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.informacion-ligas-parte-derecha a:hover {
+    color: #1f6feb;
+}
+
+.informacion-ligas-parte-derecha img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Sección central */
+.navbar-central {
+    background-color: #21262d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #c9d1d9;
+}
+
+.logotipo .logo {
+    font-size: 1.5em;
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.logotipo .logo:hover {
+    color: #1f6feb;
+}
+
+/* Menú */
+.navbar-menu-lista {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu-item .menu-item-link {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-menu-item .menu-item-link:hover {
+    background-color: #30363d;
+    color: #58a6ff;
+}
+
+/* Sección inferior */
+.navbar-inferior {
+    background-color: #161b22;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    color: #c9d1d9;
+}
+
+.navbar-inferior p {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar-inferior a {
+    color: #c9d1d9;
+    text-decoration: none;
+    background: #30363d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-inferior a:hover {
+    background: #21262d;
+    transform: scale(1.1);
+}

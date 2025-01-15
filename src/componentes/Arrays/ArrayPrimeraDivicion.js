@@ -28,7 +28,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 3,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -41,7 +41,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 4,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -54,7 +54,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 5,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -67,7 +67,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 6,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -80,7 +80,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 7,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -93,7 +93,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 8,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -106,7 +106,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 9,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -119,7 +119,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 10,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -132,7 +132,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 11,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -145,7 +145,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 12,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -158,7 +158,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 13,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -171,7 +171,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 14,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -184,7 +184,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 15,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -197,7 +197,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 16,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -210,7 +210,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 17,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -223,7 +223,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 18,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -236,7 +236,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 19,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -249,7 +249,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 20,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -262,7 +262,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 21,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -275,7 +275,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 22,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -288,7 +288,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 23,
         posicion: 1,
         imagen: "",
         nombre: "",
@@ -301,7 +301,7 @@ const primera =[
         diferencia: 0,
         puntos: 0,
     },{
-        id: 2,
+        id: 24,
         posicion: 24,
         imagen: "",
         nombre: "",
