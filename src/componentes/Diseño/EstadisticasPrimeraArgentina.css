@@ -1,8 +1,8 @@
 .estadisticas-primera-divicion {
     font-family: 'Arial', sans-serif;
     margin: 20px auto;
-    max-width: 1200px;
-    padding: 20px;
+    max-width: 1200px; /* AJUSTABLE: Cambia el ancho máximo de la tabla */
+    padding: 20px; /* AJUSTABLE: Reduce este padding para compactar la sección */
     background-color: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -10,15 +10,15 @@
 
 .titulo-principal {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2rem; /* AJUSTABLE: Reduce el tamaño del título principal */
     color: #212529;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* AJUSTABLE: Reduce este margen para compactar */
 }
 
 .tabla-de-posiciones {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1rem;
+    font-size: 1rem; /* AJUSTABLE: Reduce el tamaño de fuente para compactar */
     overflow: hidden;
     border-radius: 10px;
 }
@@ -29,14 +29,32 @@
 }
 
 .listado th {
-    padding: 15px;
+    padding: 15px; /* AJUSTABLE: Reduce este padding para compactar las filas */
     text-align: center;
     font-weight: bold;
+    border-right: 1px solid #ccc; /* SEPARADOR: Agrega una línea vertical entre columnas */
+    border-bottom: 2px solid #181616; /* Agrega una línea más marcada debajo de los encabezados */
+}
+
+.listado th:last-child {
+    border-right: none; /* Elimina el borde de la última columna */
+}
+
+.posicion{
+    border-right: 1px solid #181616;
 }
 
 .datos-de-equipos {
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #181616; /* SEPARADOR: Línea horizontal entre filas */
+}
+
+.puntaje {
+    border-right: 1px solid #181616; /* SEPARADOR: Línea vertical entre celdas */
+}
+
+.informacion-del-equipo{
+    border-right: 1px solid #181616; /* SEPARADOR: Línea vertical entre celdas */
 }
 
 .datos-de-equipos:hover {
@@ -55,35 +73,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; /* AJUSTABLE: Reduce este gap para acercar la imagen al texto */
     text-align: center;
 }
 
 .imagen-de-club {
-    width: 40px;
-    height: 40px;
+    width: 40px; /* AJUSTABLE: Cambia el tamaño de la imagen */
+    height: 40px; /* AJUSTABLE: Cambia el tamaño de la imagen */
     border-radius: 50%;
     object-fit: cover;
 }
 
 .nombre-de-club {
-    font-size: 1rem;
+    font-size: 1rem; /* AJUSTABLE: Reduce el tamaño de la fuente del nombre */
     color: #333;
     font-weight: bold;
     white-space: nowrap;
 }
 
 .tabla-de-posiciones td {
-    padding: 10px;
+    padding: 10px; /* AJUSTABLE: Reduce este padding para filas más compactas */
 }
 
 @media (max-width: 768px) {
     .tabla-de-posiciones {
-        font-size: 0.8rem;
+        font-size: 0.8rem; /* AJUSTABLE: Reduce tamaño de fuente en dispositivos móviles */
     }
 
     .imagen-de-club {
-        width: 30px;
+        width: 30px; /* AJUSTABLE: Reduce tamaño de la imagen en móviles */
         height: 30px;
     }
 }

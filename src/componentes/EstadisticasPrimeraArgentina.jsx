@@ -39,6 +39,7 @@ const EstadisticasPrimeraArgentina = () => {
                                     <img className='imagen-de-club' src={equipo.imagen} alt={equipo.nombre} />
                                     <span className='nombre-de-club'>{equipo.nombre}</span>
                                 </td>
+                                <td className='puntaje'>{equipo.puntos}</td>
                                 <td className='partidos-jugados'>{equipo.jugados}</td>
                                 <td className='partidos-ganados'>{equipo.ganados}</td>
                                 <td className='partidos-empatados'>{equipo.empatados}</td>
@@ -46,7 +47,6 @@ const EstadisticasPrimeraArgentina = () => {
                                 <td className='favor'>{equipo.favor}</td>
                                 <td className='contra'>{equipo.contra}</td>
                                 <td className='diferencial'>{equipo.diferencia}</td>
-                                <td className='puntaje'>{equipo.puntos}</td>
                             </tr>
                         );
                     })}
