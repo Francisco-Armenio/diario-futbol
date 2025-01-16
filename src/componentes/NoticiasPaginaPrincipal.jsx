@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const NoticiasPaginaPrincipal = () => {
     return (
-        <Link className='noticias-principales'>
+        <div className="noticias-principales">
             {noticias.map((noticia) => (
-                <div className='card-de-noticia' key={noticia.id}>
+                <Link to={`/noticia/${noticia.id}`} key={noticia.id} className='card-de-noticia'>
                     <img className='imagen-de-la-noticia' src={noticia.imagen} alt="" />
                     <div className='informacion-de-noticia'>
                         <div className='texto-superior-de-noticia'>
@@ -17,12 +17,14 @@ const NoticiasPaginaPrincipal = () => {
                         <p className='contenido-de-noticia'>{noticia.contenido}</p>
                         <div className='texto-inferior-de-noticia'>
                             <p className='autor'>por {noticia.autor}</p>
-                            <p className='likes'><img className='img-de-likes' src="https://cdn-icons-png.flaticon.com/128/18280/18280312.png" alt="like" /> {noticia.likes}</p>
+                            <p className='likes'>
+                                <img className='img-de-likes' src="https://cdn-icons-png.flaticon.com/128/18280/18280312.png" alt="like" /> {noticia.likes}
+                            </p>
                         </div>
                     </div>
-                </div>
+                </Link>
             ))}
-        </Link>
+        </div>
     );
 };
 

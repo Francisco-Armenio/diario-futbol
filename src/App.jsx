@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
 import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';
 import EstadisticasPrimeraArgentina from './componentes/EstadisticasPrimeraArgentina';
+import NoticiasExtendida from './componentes/NoticiasExtendida';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<><NoticiasPaginaPrincipal /><EstadisticasPrimeraArgentina /></>}/>
+        <Route path="/noticia/:id" element={<NoticiasExtendida />} />
       </Routes>
     </BrowserRouter>
   );
