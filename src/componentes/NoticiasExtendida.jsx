@@ -3,10 +3,8 @@ import { useParams } from 'react-router-dom';
 import noticias from './Arrays/ArrayNoticias';
 
 const NoticiasExtendida = () => {
-    // Obtener el id de la noticia de la URL
     const { id } = useParams();
 
-    // Buscar la noticia correspondiente en el array
     const noticia = noticias.find(noticia => noticia.id === parseInt(id));
 
     return (
