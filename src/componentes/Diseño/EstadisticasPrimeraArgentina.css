@@ -1,107 +1,164 @@
 .estadisticas-primera-divicion {
-    font-family: 'Arial', sans-serif;
-    margin: 20px auto;
-    max-width: 1200px; /* AJUSTABLE: Cambia el ancho máximo de la tabla */
-    padding: 20px; /* AJUSTABLE: Reduce este padding para compactar la sección */
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #121212; /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .titulo-principal {
-    text-align: center;
-    font-size: 2rem; /* AJUSTABLE: Reduce el tamaño del título principal */
-    color: #212529;
-    margin-bottom: 20px; /* AJUSTABLE: Reduce este margen para compactar */
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff9800; /* Naranja del navbar */
 }
 
 .tabla-de-posiciones {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1rem; /* AJUSTABLE: Reduce el tamaño de fuente para compactar */
+    background-color: #1e1e1e; /* Fondo oscuro similar a noticias */
+    border-radius: 8px;
     overflow: hidden;
-    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.listado {
-    background-color: #343a40;
-    color: white;
+.tabla-de-posiciones th, 
+.tabla-de-posiciones td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+    color: white; /* Color blanco para texto y números */
 }
 
-.listado th {
-    padding: 15px; /* AJUSTABLE: Reduce este padding para compactar las filas */
-    text-align: center;
-    font-weight: bold;
-    border-right: 1px solid #ccc; /* SEPARADOR: Agrega una línea vertical entre columnas */
-    border-bottom: 2px solid #181616; /* Agrega una línea más marcada debajo de los encabezados */
+.tabla-de-posiciones th {
+    background-color: #222;
+    color: #ff9800; /* Naranja para títulos */
 }
 
-.listado th:last-child {
-    border-right: none; /* Elimina el borde de la última columna */
+/* Colores suaves, pero más oscuros */
+.equipo-libertadores {
+    background-color: #2a3b5d; /* Azul oscuro */
+    color: #b3d1ff;
 }
 
-.posicion{
-    border-right: 1px solid #181616;
+.equipo-sudamericana {
+    background-color: #5a4a23; /* Amarillo oscuro */
+    color: #fff3cd;
 }
 
-.datos-de-equipos {
-    text-align: center;
-    border-bottom: 1px solid #181616; /* SEPARADOR: Línea horizontal entre filas */
-}
-
-.puntaje {
-    border-right: 1px solid #181616; /* SEPARADOR: Línea vertical entre celdas */
-}
-
-.informacion-del-equipo{
-    border-right: 1px solid #181616; /* SEPARADOR: Línea vertical entre celdas */
-}
-
-.datos-de-equipos:hover {
-    background-color: #f1f1f1;
-}
-
-.equipo-destacado-azul {
-    background-color: rgba(0, 123, 255, 0.1);
-}
-
-.equipo-destacado-rojo {
-    background-color: rgba(255, 0, 0, 0.1);
-}
-
-.informacion-del-equipo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px; /* AJUSTABLE: Reduce este gap para acercar la imagen al texto */
-    text-align: center;
+.equipo-descenso {
+    background-color: #5d2a2a; /* Rojo oscuro */
+    color: #f8d7da;
 }
 
 .imagen-de-club {
-    width: 40px; /* AJUSTABLE: Cambia el tamaño de la imagen */
-    height: 40px; /* AJUSTABLE: Cambia el tamaño de la imagen */
-    border-radius: 50%;
-    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.informacion-del-equipo {
+    display: flex; /* Para alinear en línea la imagen y el nombre */
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
 .nombre-de-club {
-    font-size: 1rem; /* AJUSTABLE: Reduce el tamaño de la fuente del nombre */
-    color: #333;
     font-weight: bold;
-    white-space: nowrap;
+    color: white;
+    margin-left: 10px; /* Espaciado entre la imagen y el nombre */
 }
 
-.tabla-de-posiciones td {
-    padding: 10px; /* AJUSTABLE: Reduce este padding para filas más compactas */
+/* Se quita el cambio de color al pasar el cursor */
+.datos-de-equipos:hover {
+    background-color: inherit;
 }
 
-@media (max-width: 768px) {
-    .tabla-de-posiciones {
-        font-size: 0.8rem; /* AJUSTABLE: Reduce tamaño de fuente en dispositivos móviles */
-    }
+/* Estilo general */
+.fecha-importante {
+    width: 100%;
+    max-width: 600px; /* Línea 6: Reduje el ancho del contenedor */
+    margin: 20px auto; /* Línea 7: Reduje el margen */
+    padding: 15px; /* Línea 8: Reduje el padding */
+    background-color: #0a3d62; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
 
-    .imagen-de-club {
-        width: 30px; /* AJUSTABLE: Reduce tamaño de la imagen en móviles */
-        height: 30px;
-    }
+/* Título */
+.titulo-del-partido {
+    font-size: 20px; /* Línea 17: Reduje el tamaño del título */
+    text-align: center;
+    margin-bottom: 15px; /* Línea 19: Reduje el margen inferior */
+}
+
+/* Contenedor principal */
+.partido-del-dia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; /* Línea 26: Reduje el espacio entre elementos */
+}
+
+/* Información del Día */
+.info-del-dia {
+    flex: 1;
+    text-align: right;
+}
+
+.dia-del-partido {
+    font-size: 16px; /* Línea 35: Reduje el tamaño de la fecha */
+    margin-bottom: 4px; /* Línea 36: Reduje el margen inferior */
+}
+
+.fin-partido {
+    font-size: 14px; /* Línea 40: Reduje el tamaño del texto */
+    color: #f5a623;
+    font-weight: bold;
+}
+
+/* Equipos (Nombre al lado de la imagen) */
+.equipos-que-juegan {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; /* Línea 51: Reduje el espacio entre los equipos */
+}
+
+.equipo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Línea 56: Reduje el espacio entre imagen y nombre */
+}
+
+.equipo-del-dia {
+    width: 40px; /* Línea 60: Reduje el tamaño de la imagen */
+    height: 40px; /* Línea 61: Reduje el tamaño de la imagen */
+    object-fit: contain;
+}
+
+.nombre-equipo {
+    font-size: 16px; /* Línea 66: Reduje el tamaño del texto del equipo */
+    font-weight: bold;
+    color: white;
+}
+
+/* Resultado */
+.resultado-del-dia {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; /* Línea 75: Reduje el espacio entre los resultados */
+}
+
+.resultado {
+    font-size: 20px; /* Línea 79: Reduje el tamaño del resultado */
+    font-weight: bold;
+    color: white;
+    margin: 0;
 }
