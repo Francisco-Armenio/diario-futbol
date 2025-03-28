@@ -13,7 +13,6 @@ const EstadisticasPrimeraArgentina = () => {
                         <th className='puntos'>PTS</th>
                         <th className='jugados'>J</th>
                         <th className='ganados'>G</th>
-                        <th className='empatados'>E</th>
                         <th className='perdidos'>P</th>
                         <th className='diferencia-de-gol'>+/-</th>
                     </tr>
@@ -40,7 +39,6 @@ const EstadisticasPrimeraArgentina = () => {
                                 <td className='puntaje'>{equipo.puntos}</td>
                                 <td className='partidos-jugados'>{equipo.jugados}</td>
                                 <td className='partidos-ganados'>{equipo.ganados}</td>
-                                <td className='partidos-empatados'>{equipo.empatados}</td>
                                 <td className='partidos-perdidos'>{equipo.perdidos}</td>
                                 <td className='diferencial'>{equipo.diferencia}</td>
                             </tr>

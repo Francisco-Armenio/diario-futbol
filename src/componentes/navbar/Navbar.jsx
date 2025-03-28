@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <div className='navbar-central'>
                 <div className='logotipo'>
-                    <Link to="/" className='logo'>Por definir</Link>
+                    <Link to="/" className='logo'>Futbol para todos</Link>
                 </div>
                 <div className='navbar-menu'>
                     <ul className='navbar-menu-lista'>
