@@ -14,7 +14,7 @@ const NoticiasPaginaPrincipal = () => {
                             <p className='fecha'>{noticia.fecha}</p>
                         </div>
                         <h2 className='titulo-noticia'>{noticia.titulo}</h2>
-                        <p className='contenido-de-noticia'>{noticia.contenido}</p>
+                        <p className='contenido-de-noticia'>{noticia.miniinfo}</p>
                         <div className='texto-inferior-de-noticia'>
                             <p className='autor'>por {noticia.autor}</p>
                             <p className='likes'>

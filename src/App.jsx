@@ -1,9 +1,9 @@
-import { useState } from 'react';
 import './App.css';
 import './componentes/Diseño/Navbar.css';
 import './componentes/Diseño/NoticiasPaginaPrincipal.css';
 import './componentes/Diseño/EstadisticasPrimeraArgentina.css';
 import './componentes/Diseño/PaginaPrincipal.css';
+import './componentes/Diseño/NoticiasExtendida.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';  // Importamos el Navbar modificado
 import PaginaPrincipal from './componentes/PaginaPrincipal';
@@ -15,7 +15,7 @@ import Primera from './componentes/Primera';  // Asegúrate de importar el compo
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />  {/* El Navbar ya cambiará según la ruta */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/noticias" element={<NoticiasPaginaPrincipal />} />

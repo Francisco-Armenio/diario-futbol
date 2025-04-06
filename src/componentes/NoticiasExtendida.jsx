@@ -9,18 +9,16 @@ const NoticiasExtendida = () => {
 
     return (
         <div className="noticia-extendida">
-            {noticia ? (
-                <>
-                    <h1>{noticia.titulo}</h1>
-                    <img src={noticia.imagen} alt={noticia.titulo} />
-                    <p>{noticia.contenido}</p>
-                    <p><strong>Autor:</strong> {noticia.autor}</p>
-                    <p><strong>Fecha:</strong> {noticia.fecha}</p>
-                    <p><strong>Likes:</strong> {noticia.likes}</p>
-                </>
-            ) : (
-                <p>Noticia no encontrada</p>
-            )}
+            <div className="informacion-superior">
+                <span className="extendido-minititulo">{noticia.minititulo}</span>
+                <h1 className="extendido-titulo">{noticia.titulo}</h1>
+                <p className="extendido-autor">Por {noticia.autor}</p>
+                <img className="extendido-imagen" src={noticia.imagen} alt="" />
+            </div>
+
+            <div className="informacion-inferior">
+                <p className="extendido-info">{noticia.info}</p>
+            </div>
         </div>
     );
 };
