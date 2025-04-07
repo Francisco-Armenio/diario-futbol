@@ -10,7 +10,8 @@ import PaginaPrincipal from './componentes/PaginaPrincipal';
 import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';
 import NoticiasExtendida from './componentes/NoticiasExtendida';
 import EstadisticasPrimeraArgentina from './componentes/EstadisticasPrimeraArgentina';
-import Primera from './componentes/Primera';  // Asegúrate de importar el componente Primera
+import Primera from './componentes/Primera';
+import Acenso from './componentes/Acenso';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/noticia/:id" element={<NoticiasExtendida />} />
         <Route path="/estadisticas" element={<EstadisticasPrimeraArgentina />} />
         <Route path="/primera" element={<Primera />} />
+        <Route path="/acenso" element={<Acenso />} />
       </Routes>
     </BrowserRouter>
   );
