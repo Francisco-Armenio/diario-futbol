@@ -9,9 +9,9 @@ import Navbar from './componentes/navbar/Navbar';  // Importamos el Navbar modif
 import PaginaPrincipal from './componentes/PaginaPrincipal';
 import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';
 import NoticiasExtendida from './componentes/NoticiasExtendida';
-import EstadisticasPrimeraArgentina from './componentes/EstadisticasPrimeraArgentina';
 import Primera from './componentes/Primera';
 import Acenso from './componentes/Acenso';
+import Estadisticas from './componentes/Estadisticas';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/noticias" element={<NoticiasPaginaPrincipal />} />
         <Route path="/noticia/:id" element={<NoticiasExtendida />} />
-        <Route path="/estadisticas" element={<EstadisticasPrimeraArgentina />} />
+        <Route path="/estadisticas" element={<Estadisticas />} />
         <Route path="/primera" element={<Primera />} />
         <Route path="/acenso" element={<Acenso />} />
       </Routes>
