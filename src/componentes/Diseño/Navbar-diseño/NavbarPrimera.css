@@ -1,0 +1,140 @@
+.navbar-primera {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1b1b1b;
+    /* Fondo general oscuro */
+    color: #fff;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.mis-redes-parte-izquierda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #2e2e2e;
+    /* Color 1 */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.mis-redes-parte-izquierda img {
+    width: 24px;
+    height: 24px;
+}
+
+.mi-gmail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-logo-primera {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #005f3c;
+    /* Color 2 (verde oscuro) */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.logo-primera {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo-primera {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a2f2c5;
+}
+
+.noticias-dia-primera {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #0c2f1c;
+    /* Verde oscuro */
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.noticia-del-dia-navbar {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #00ff88;
+}
+
+.mini-noticia {
+    background-color: #1f4634;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #c8ffe0;
+}
+
+.noticias-dia-primera h2 {
+    font-size: 20px;
+    color: #66ffcc;
+    margin-right: 10px;
+}
+
+.noticias-dia-primera p {
+    background-color: #224d3c;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.noticias-dia-primera button {
+    background-color: #00a36c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.noticias-dia-primera button:hover {
+    background-color: #007a50;
+}
+
+.equipo-navbar {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #003d2a;
+    /* Color 4 */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.linea-equipos {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.equipos img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.equipos img:hover {
+    transform: scale(1.1);
+}

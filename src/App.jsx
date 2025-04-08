@@ -1,5 +1,6 @@
 import './App.css';
-import './componentes/Diseño/Navbar.css';
+import './componentes/Diseño/Navbar-diseño/Navbar.css';
+import './componentes/Diseño/Navbar-diseño/NavbarPrimera.css';
 import './componentes/Diseño/NoticiasPaginaPrincipal.css';
 import './componentes/Diseño/EstadisticasPrimeraArgentina.css';
 import './componentes/Diseño/PaginaPrincipal.css';
