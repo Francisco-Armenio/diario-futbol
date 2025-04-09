@@ -4,14 +4,13 @@ import './componentes/Diseño/Navbar-diseño/NavbarPrimera.css';
 import './componentes/Diseño/NoticiasPaginaPrincipal.css';
 import './componentes/Diseño/EstadisticasPrimeraArgentina.css';
 import './componentes/Diseño/PaginaPrincipal.css';
-import './componentes/Diseño/NoticiasExtendida.css'
+import './componentes/Diseño/NoticiasExtendida.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './componentes/navbar/Navbar';  // Importamos el Navbar modificado
+import Navbar from './componentes/navbar/Navbar';
 import PaginaPrincipal from './componentes/PaginaPrincipal';
 import NoticiasPaginaPrincipal from './componentes/NoticiasPaginaPrincipal';
 import NoticiasExtendida from './componentes/NoticiasExtendida';
 import Primera from './componentes/Primera';
-import Acenso from './componentes/Acenso';
 import Estadisticas from './componentes/Estadisticas';
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
         <Route path="/noticia/:id" element={<NoticiasExtendida />} />
         <Route path="/estadisticas" element={<Estadisticas />} />
         <Route path="/primera" element={<Primera />} />
-        <Route path="/acenso" element={<Acenso />} />
       </Routes>
     </BrowserRouter>
   );
