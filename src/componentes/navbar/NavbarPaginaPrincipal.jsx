@@ -26,7 +26,7 @@ const NavbarPaginaPrincipal = () => {
                             <Link to="/primera" className='menu-item-link'>PRIMERA</Link>
                         </li>
                         <li className='navbar-menu-item'>
-                            <Link to="/acenso" className='menu-item-link'>ASCENSO</Link>
+                            <Link to="/ascenso" className='menu-item-link'>ASCENSO</Link>
                         </li>
                         <li className='navbar-menu-item'>
                             <Link to="/" className='menu-item-link'>LIBERTADORES</Link>
