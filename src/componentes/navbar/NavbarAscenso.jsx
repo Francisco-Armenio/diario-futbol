@@ -16,7 +16,7 @@ const NavbarAscenso = () => {
     };
 
     return (
-        <div className='navbar-primera'>
+        <div className='navbar-ascenso'>
             <div className='mis-redes-parte-izquierda'>
                 <a href="https://www.linkedin.com/in/francisco-armenio/" className='perfil-linkedin'>
                     <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="Logo de Linkedin" />
@@ -30,12 +30,13 @@ const NavbarAscenso = () => {
                 </p>
             </div>
 
-            <div className='navbar-logo-primera'>
-                <Link to="/" className='logo-primera'>Futbol para todos</Link>
-                <h2 className='titulo-primera'>Ascenso</h2>
+            <div className='navbar-logo-ascenso'>
+                <Link to="/" className='logo-ascenso'>Futbol para todos</Link>
+                <img className='logo-ligas-profecionales' src="https://image-service.onefootball.com/transform?w=128&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/164.png" alt="Primera Nacional" />
+                <h2 className='titulo-ascenso'>Primera Nacional</h2>
             </div>
 
-            <div className='noticias-dia-primera'>
+            <div className='noticias-dia-ascenso'>
                 {equipoSeleccionado ? (
                     <>
                         <h2>Noticias de {equipoSeleccionado}</h2>
@@ -46,27 +47,27 @@ const NavbarAscenso = () => {
                     </>
                 ) : (
                     <>
-                        <h2 className='noticia-del-dia-navbar'>Noticia del día</h2>
-                        <p className='mini-noticia'>📢 Quilmes se prepara para el torneo</p>
-                        <p className='mini-noticia'>⚽ Ferro enfrenta a All Boys</p>
-                        <p className='mini-noticia'>🔥 Chicago arranca con todo</p>
+                        <h2 className='noticia-del-dia-navbar-ascenso'>Noticia del día</h2>
+                        <p className='mini-noticia-ascenso'>📢 Quilmes se prepara para el torneo</p>
+                        <p className='mini-noticia-ascenso'>⚽ Ferro enfrenta a All Boys</p>
+                        <p className='mini-noticia-ascenso'>🔥 Chicago arranca con todo</p>
                     </>
                 )}
             </div>
 
-            <div className='equipo-navbar'>
-                <ul className='linea-equipos'>
+            <div className='equipo-navbar-ascenso'>
+                <ul className='linea-equipos-ascenso'>
                     {ascenso.map((equipo) => (
                         <li
                             key={equipo.id}
-                            className="equipos"
+                            className="equipos-ascenso"
                             onClick={() => setEquipoSeleccionado(equipo.nombre)}
                             style={{ cursor: 'pointer' }}
                         >
                             <img
                                 src={equipo.imagen}
                                 alt={`Escudo de ${equipo.nombre}`}
-                                className="escudo-equipo"
+                                className="escudo-equipo-ascenso"
                             />
                         </li>
                     ))}
