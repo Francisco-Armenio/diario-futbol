@@ -8,10 +8,13 @@ import NavbarAscenso from "./NavbarAscenso";
 const Navbar = () => {
   const location = useLocation();
 
-  if (location.pathname === "/primera") {
+  if (location.pathname.startsWith("/primera/")) {
     return <NavbarPrimera />;
   }
 
+  if (location.pathname === "/primera") {
+    return <NavbarPrimera />;
+  }
 
   if (location.pathname === "/estadisticas") {
     return <NavbarEstadisticas />;

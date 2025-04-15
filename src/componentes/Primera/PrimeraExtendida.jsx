@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import infoPrimera from './Arrays/ArrayPrimeraNoticias';
+import infoPrimera from "../Arrays/ArrayPrimeraNoticias";
 
 const PrimeraExtendida = () => {
     const { id } = useParams();

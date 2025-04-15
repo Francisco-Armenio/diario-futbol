@@ -1,0 +1,17 @@
+.contenedor-primera {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.contenedor-primera>* {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .contenedor-primera {
+        flex-direction: column;
+    }
+}

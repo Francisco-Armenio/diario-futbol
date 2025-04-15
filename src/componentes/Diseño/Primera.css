@@ -1,0 +1,82 @@
+.contenedor-noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+
+.card-noticia-campeonato {
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.card-noticia-campeonato:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.noticia-extendida {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.imagenes-noticia-campeonato {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.data-noticia {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mini-informacion {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+}
+
+.titulo-noticia-campeonato {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #222;
+}
+
+.miniinfo-campeonato {
+    font-size: 14px;
+    color: #444;
+}
+
+.informacion-creador-de-nota {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888;
+    align-items: center;
+}
+
+.like-noticia-campeonato img {
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
