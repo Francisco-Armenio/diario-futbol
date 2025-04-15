@@ -1,6 +1,6 @@
 import React from 'react';
 import NoticiasPaginaPrincipal from './NoticiasPaginaPrincipal';
-import TablaDePosiciones from './EstadisticasPrimeraArgentina';
+import TablaDePosiciones from './Estadisticas/EstadisticasPrimeraArgentina';
 
 const PaginaPrincipal = () => {
     return (

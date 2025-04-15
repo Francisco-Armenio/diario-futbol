@@ -11,10 +11,17 @@ const PrimeraExtendida = () => {
     }
 
     return (
-        <div className='noticia-extendida'>
-            <h1>{noticia.titulo}</h1>
-            <img src={noticia.imagen} alt={noticia.titulo} />
-            <p>{noticia.descripcionExtendida || noticia.descripcion}</p>
+        <div className="noticia-extendida">
+            <div className="informacion-superior">
+                <span className="extendido-minititulo">{noticia.minititulo}</span>
+                <h1 className="extendido-titulo">{noticia.titulo}</h1>
+                <p className="extendido-autor">Por {noticia.autor}</p>
+                <img className="extendido-imagen" src={noticia.imagen} alt="" />
+            </div>
+
+            <div className="informacion-inferior">
+                <p className="extendido-info">{noticia.info}</p>
+            </div>
         </div>
     );
 };

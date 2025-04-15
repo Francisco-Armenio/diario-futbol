@@ -1,5 +1,5 @@
 import React from 'react';
-import primera from "./Arrays/ArrayPrimeraDivicion";
+import primera from "../Arrays/ArrayPrimeraDivicion";
 
 const EstadisticasPrimeraArgentina = () => {
     return (
