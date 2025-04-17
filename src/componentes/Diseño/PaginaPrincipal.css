@@ -1,13 +1,23 @@
-.contenedor-principal {
-    display: grid;
-    grid-template-columns: 2fr 1fr; /* Noticias más anchas que la tabla */
+.contenedor-primera {
+    display: flex;
+    width: 100%;
     gap: 20px;
-    align-items: start;
+    /* Espacio entre ambas secciones */
     padding: 20px;
 }
 
+.contenedor-primera>.primera {
+    flex: 0 0 60%;
+}
+
+.contenedor-primera>.partidos-de-primera {
+    flex: 0 0 40%;
+}
+
+
 @media (max-width: 1024px) {
     .contenedor-principal {
-        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+        grid-template-columns: 1fr;
+        /* Cambia a una sola columna en pantallas pequeñas */
     }
 }

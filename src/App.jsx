@@ -10,6 +10,7 @@ import './componentes/Diseño/Ascenso.css';
 import './componentes/Diseño/Primera.css';
 import './componentes/Diseño/PrimeraPrincipal.css';
 import './componentes/Diseño/PartidosPrimera.css';
+import './componentes/Diseño/DatosDelPartido.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';

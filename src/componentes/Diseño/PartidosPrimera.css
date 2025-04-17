@@ -1,52 +1,103 @@
-.fechas-partidos {
+/* Contenedor principal del bloque de partidos en vivo */
+.contenedor-vivo-moderno {
+    width: 100%;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     border-radius: 12px;
-    margin-top: 20px;
 }
 
-.fechas-partidos h2 {
-    margin-bottom: 10px;
-    font-size: 22px;
-    color: #222;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-}
-
-.partido {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: 12px 16px;
-    border-radius: 8px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.partido:hover {
-    transform: scale(1.02);
-}
-
-.equipo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: 500;
+/* Título principal */
+.titulo-vivo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
     color: #333;
 }
 
-.escudo {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-    border-radius: 4px;
-    background-color: #eee;
+/* Enlace del partido (quita subrayado y hereda color) */
+.partido-link {
+    text-decoration: none;
+    color: inherit;
 }
 
-.vs {
+/* Contenedor de cada partido en vivo */
+.partido-vivo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    text-decoration: none;
+}
+
+/* Efecto hover para resaltar el partido */
+.partido-vivo:hover {
+    transform: scale(1.03);
+    background-color: #bbdefb;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo general de las columnas */
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Sección de imágenes */
+.imagenes {
+    margin-right: 12px;
+}
+
+.escudo-vivo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+/* Sección de nombres */
+.nombres {
+    margin-right: 20px;
+}
+
+.nombres p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Sección de resultados */
+.resultados {
+    margin-right: 20px;
+}
+
+.resultados p {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #dedede;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 10px 0;
+    color: #222;
+    text-align: center;
+}
+
+/* Sección del estado (Ej: En vivo) */
+.estado {
+    min-width: 80px;
+    text-align: right;
+}
+
+.estado-vivo {
     font-size: 14px;
-    color: #666;
-    margin: 0 10px;
+    font-weight: bold;
+    color: #d32f2f;
+    text-transform: uppercase;
 }
