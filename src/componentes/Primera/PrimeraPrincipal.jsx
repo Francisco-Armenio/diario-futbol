@@ -4,7 +4,7 @@ import PartidosDePrimera from './PartidosDePrimera'
 
 const PrimeraPrincipal = () => {
     return (
-         <div className="contenedor-primera">
+        <div className="contenedor-primera">
             <div className="primera">
                 <Primera />
             </div>

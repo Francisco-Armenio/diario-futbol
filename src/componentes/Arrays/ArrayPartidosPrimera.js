@@ -9,6 +9,12 @@ const partidos = [
         minuto: "68'",
         resultado1: 3,
         resultado2: 1,
+        eventos: [
+            { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Boca' },
+            { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'River' },
+            { tipo: 'gol', jugador: 'Borja', minuto: 30, equipo: 'River' },
+            { tipo: 'gol', jugador: 'Merentiel', minuto: 76, equipo: 'Boca' },
+            ]
     },
     {
         id: 2,
