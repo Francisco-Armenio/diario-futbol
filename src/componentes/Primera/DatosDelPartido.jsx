@@ -28,6 +28,11 @@ const DatosDelPartido = () => {
                 <p className="equipo2-dato">{partido.equipo2}</p>
             </div>
 
+            <div className='info-partido-tiempo'>
+                <p className='info-partido-estado'>{partido.estado}</p>
+                <p className='info-partido-minuto'>{partido.minuto}</p>
+            </div>
+            
             <EventosPrimera eventos={partido.eventos} />
         </div>
     );
