@@ -1,7 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import partidos from '../Arrays/ArrayPartidosPrimera';
-import EventosPrimera from './EventosPrimera'; // Importa el componente EventosPrimera
+import EventosPrimera from './EventosPrimera';
+import InfoPartido from './InfoPartido';
+import OportunidadesPrimera from './OportunidadesPrimera';
+import UltimosPartidosPrimera from './UltimosPartidosPrimera';
 
 const DatosDelPartido = () => {
     const { id } = useParams();
@@ -32,8 +35,18 @@ const DatosDelPartido = () => {
                 <p className='info-partido-estado'>{partido.estado}</p>
                 <p className='info-partido-minuto'>{partido.minuto}</p>
             </div>
-            
+
             <EventosPrimera eventos={partido.eventos} />
+
+            <div className='informacion-del-partido'>
+                <InfoPartido partido={partido} />
+            </div>
+            <div className='oportunidades-equipos-general'>
+                <OportunidadesPrimera partido={partido} />
+            </div>
+            <div className='ultimos-partidos-de-los-equipos'>
+                <UltimosPartidosPrimera partido={partido}/>
+            </div>
         </div>
     );
 };

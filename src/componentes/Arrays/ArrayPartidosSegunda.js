@@ -5,7 +5,118 @@ const partidos = [
         equipo1: "Chacarita Jrs",
         imagen2:"",
         equipo2: "Ferro",
-        estado: "Finalizado"
+        estado: "En vivo",
+        minuto: "68'",
+        resultado1: 3,
+        resultado2: 1,
+        eventos: [
+            { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Local', asistencia: 'Barco' },
+            { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'Visitante' },
+            { tipo: 'gol', jugador: 'Borja', minuto: 30, equipo: 'Local', asistencia: 'Advíncula' },
+            { tipo: 'gol', jugador: 'Merentiel', minuto: 76, equipo: 'visitante', asistencia: 'Zenón' }
+        ],
+        cambios: [
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+        ],
+        estadisticas:{
+            posesionLocal: 60,
+            posesionVisitante: 40,
+            tirosAlArcoLocal: 5,
+            tirosAlArcoVisitante: 2,
+            disparosTotalesLocal: 12,
+            disparosTotalesVisitante: 8,
+            duelosGanadosLocal: 20,
+            duelosGanadosVisitante: 18,
+            faltasLocal: 10,
+            faltasVisitante: 12
+        },
+        ultimosPartidosLocal: [
+            {
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 2,
@@ -13,7 +124,7 @@ const partidos = [
         equipo1: "Dep. Riestra",
         imagen2:"",
         equipo2: "Colon",
-        estado: "Finalizado"
+        estado: "En vivo"
     },
     {
         id: 3,
@@ -21,7 +132,7 @@ const partidos = [
         equipo1: "Godoy Cruz",
         imagen2:"",
         equipo2: "Quilmes",
-        estado: "Finalizado"
+        estado: "En vivo"
     },
     {
         id: 4,
@@ -29,7 +140,7 @@ const partidos = [
         equipo1: "Güemes(Sda)",
         imagen2:"",
         equipo2: "Estudiantes(BA)",
-        estado: "Finalizado"
+        estado: "En vivo"
     },
     {
         id: 5,

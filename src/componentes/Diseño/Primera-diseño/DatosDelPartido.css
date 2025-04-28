@@ -1,11 +1,15 @@
+/* Estilo principal */
 .datos-partido {
-    background: #f9f9f9;
+    background: #f4f1e1; /* Color beige suave, inspirado en la arena */
     border-radius: 20px;
     padding: 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin: 2rem auto;
     max-width: 900px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1579157597841-98a3196c87cc'); /* Fondo inspirado en la naturaleza */
+    background-size: cover;
+    color: #3e3e3e; /* Color oscuro para el texto */
 }
 
 .logotipo {
@@ -15,8 +19,8 @@
     gap: 0.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
+    color: #6e4b3a; /* Color marrón, como la tierra */
 }
-
 
 .imagen-dato {
     width: 50px;
@@ -25,9 +29,9 @@
 }
 
 .titulo-dato {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    color: #202020;
+    color: #4f3b2f; /* Color marrón más oscuro */
 }
 
 .info-partido-dato {
@@ -36,18 +40,19 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
-    background: #ffffff;
-    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    border: 2px solid #a89f91; /* Marrón claro */
     padding: 1rem;
     border-radius: 12px;
     margin-top: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .equipo1-dato,
 .equipo2-dato {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #333;
+    color: #6e4b3a;
     width: 100px;
     text-align: center;
 }
@@ -62,13 +67,13 @@
 .resultado1-dato {
     font-size: 2rem;
     font-weight: bold;
-    color: #1c1c1c;
+    color: #3e3e3e;
 }
 
 .separador {
     font-size: 2rem;
     font-weight: bold;
-    color: #666;
+    color: #8d6e63; /* Color marrón suave */
 }
 
 .info-partido-tiempo {
@@ -78,7 +83,7 @@
     gap: 0.5rem;
     margin-top: 1.2rem;
     padding: 0.5rem 1rem;
-    background-color: #ff4444cc;
+    background-color: #6f9d63; /* Verde animalista */
     color: white;
     border-radius: 12px;
     width: fit-content;
@@ -89,7 +94,7 @@
 .info-partido-estado {
     font-weight: bold;
     background: white;
-    color: #ff4444;
+    color: #6f9d63;
     padding: 0.2rem 0.6rem;
     border-radius: 6px;
     font-size: 0.9rem;
@@ -97,4 +102,211 @@
 
 .info-partido-minuto {
     font-size: 1rem;
+}
+
+/* Estilo de la sección de cambios */
+.informacion-detallada-del-partido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px 0;
+    padding: 20px;
+    gap: 30px;
+}
+
+.cambios-local,
+.cambios-visitante {
+    flex: 1;
+    background-color: #f4f0e4; /* Color claro y terroso */
+    border: 2px solid #a79b89;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+}
+
+.titulo-de-cambios-general {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #4f3b2f;
+    border-bottom: 1px solid #a89f91;
+    padding-bottom: 8px;
+}
+
+.cambios-local p,
+.cambios-visitante p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+    color: #6e4b3a;
+}
+
+.no-hay-cambios-general {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.no-hay-cambios-general::before {
+    content: "🐾 ";
+}
+
+.no-hay-cambios-registrados {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos de las oportunidades */
+.oportunidades-del-partido {
+    margin: 20px;
+    padding: 10px;
+}
+
+.estadistica-linea {
+    margin-bottom: 15px;
+}
+
+.nombre-estadistica {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #4f3b2f;
+}
+
+.barra-estadistica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor-local,
+.valor-visitante {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+progress {
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-local {
+    background-color: #9c7a3b; /* Marrón animal */
+}
+
+.progress-visitante {
+    background-color: #5e8c42; /* Verde jungla */
+}
+
+/*ultimos 5 partidos*/
+
+.ultimos-partidos-de-los-equipos {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ultimos-partidos {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.titulo-partidos {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.partidos-lista {
+    margin-bottom: 30px;
+}
+
+.partidos-lista h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+    font-weight: normal;
+}
+
+.partidos-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  /* Espacio entre cada tarjeta */
+    flex-wrap: nowrap;  /* Para evitar que las tarjetas se vayan a una nueva fila */
+}
+
+.partido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;  /* Tamaño fijo para las tarjetas */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+.partido:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.resultado {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.resultado-victoria {
+    color: green;
+}
+
+.resultado-empate {
+    color: gray;
+}
+
+.resultado-derrota {
+    color: red;
+}
+
+.marcador {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.escudos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.escudo-local,
+.escudo-visitante {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.partidos-lista.local .partido {
+    background-color: #e6f7ff;
+}
+
+.partidos-lista.visitante .partido {
+    background-color: #fbe5e5;
 }
