@@ -35,6 +35,7 @@ const partidos = [
         },
         ultimosPartidosLocal: [
             {
+                termino: "derrota",
                 local: 'Boca Juniors',
                 visitante: 'Argentinos Juniors',
                 golesLocal: 4,
@@ -43,6 +44,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
             },
             {
+                termino: "victoria",
                 local: 'Rosario Central',
                 visitante: 'Boca Juniors',
                 golesLocal: 1,
@@ -51,6 +53,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-boca.com'
             },
             {
+                termino: "victoria",
                 local: 'Boca Juniors',
                 visitante: 'Patronato',
                 golesLocal: 2,
@@ -59,6 +62,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-patronato.com'
             },
             {
+                termino: "victoria",
                 local: 'Independiente',
                 visitante: 'Boca Juniors',
                 golesLocal: 0,
@@ -67,6 +71,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-boca.com'
             },
             {
+                termino: "victoria",
                 local: 'Racing Club',
                 visitante: 'Boca Juniors',
                 golesLocal: 1,
@@ -77,6 +82,7 @@ const partidos = [
         ],
         ultimosPartidosVisitante: [
             {
+                termino: "victoria",
                 local: 'Lanus',
                 visitante: 'Argentinos Juniors',
                 golesLocal: 4,
@@ -85,6 +91,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
             },
             {
+                termino: "victoria",
                 local: 'Rosario Central',
                 visitante: 'Boca Juniors',
                 golesLocal: 1,
@@ -93,6 +100,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-boca.com'
             },
             {
+                termino: "victoria",
                 local: 'Boca Juniors',
                 visitante: 'Patronato',
                 golesLocal: 2,
@@ -101,6 +109,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-patronato.com'
             },
             {
+                termino: "victoria",
                 local: 'Independiente',
                 visitante: 'Boca Juniors',
                 golesLocal: 0,
@@ -109,6 +118,7 @@ const partidos = [
                 escudoVisitante: 'https://link-a-imagen-de-boca.com'
             },
             {
+                termino: "victoria",
                 local: 'Racing Club',
                 visitante: 'Boca Juniors',
                 golesLocal: 1,
