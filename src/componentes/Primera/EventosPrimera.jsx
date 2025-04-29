@@ -11,8 +11,8 @@ const EventosPrimera = ({ eventos }) => {
                 <div key={index} className="evento-linea">
                     {evento.equipo === 'Local' ? (
                         <>
-                            <div>
-                                <p className="evento-local descripcion">
+                            <div className="evento-local evento-box">
+                                <p className="descripcion">
                                     {evento.tipo === 'gol' && '⚽ Gol de '}
                                     {evento.tipo === 'amarilla' && '🟨 Amarilla para '}
                                     {evento.tipo === 'roja' && '🟥 Roja para '}
@@ -20,20 +20,22 @@ const EventosPrimera = ({ eventos }) => {
                                     <strong>{evento.jugador}</strong>
                                 </p>
                                 {evento.tipo === 'gol' && evento.asistencia && (
-                                    <p className="evento-asistencia-local">
-                                        <strong className='asistencia-local'>Asistencia:</strong> {evento.asistencia}
-                                    </p>
+                                    <p className="asistencia">Asistencia: {evento.asistencia}</p>
                                 )}
                             </div>
-                            <p className="minuto-central">{evento.minuto}'</p>
-                            <div className="evento-visita" />
+                            <div className="minuto-central">
+                                <span>{evento.minuto}'</span>
+                            </div>
+                            <div className="evento-visita evento-box" />
                         </>
                     ) : (
                         <>
-                            <div className="evento-local" />
-                            <p className="minuto-central">{evento.minuto}'</p>
-                            <div>
-                                <p className="evento-visita descripcion">
+                            <div className="evento-local evento-box" />
+                            <div className="minuto-central">
+                                <span>{evento.minuto}'</span>
+                            </div>
+                            <div className="evento-visita evento-box">
+                                <p className="descripcion">
                                     {evento.tipo === 'gol' && '⚽ Gol de '}
                                     {evento.tipo === 'amarilla' && '🟨 Amarilla para '}
                                     {evento.tipo === 'roja' && '🟥 Roja para '}
@@ -41,9 +43,7 @@ const EventosPrimera = ({ eventos }) => {
                                     <strong>{evento.jugador}</strong>
                                 </p>
                                 {evento.tipo === 'gol' && evento.asistencia && (
-                                    <p className="evento-asistencia-visitante">
-                                        <strong className='asistencia-visitante'>Asistencia:</strong> {evento.asistencia}
-                                    </p>
+                                    <p className="asistencia">Asistencia: {evento.asistencia}</p>
                                 )}
                             </div>
                         </>
