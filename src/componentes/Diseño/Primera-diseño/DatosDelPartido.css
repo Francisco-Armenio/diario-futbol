@@ -1,3 +1,25 @@
+.mensaje-no-cambios,
+.mensaje-no-estadisticas,
+.mensaje-no-cambios{
+    background-color: #f2f2f2;
+    border-left: 6px solid #888;
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #555;
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+.mensaje-no-cambios:hover,
+.mensaje-no-estadisticas:hover {
+    background-color: #e8e8e8;
+}
+
+
 /* Estilo principal */
 .datos-partido {
     background: #f4f1e1; /* Color beige suave, inspirado en la arena */
