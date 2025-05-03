@@ -16,6 +16,7 @@ import './componentes/Diseño/Primera-diseño/EventosPrimera.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
 import PaginaPrincipal from './componentes/PaginaPrincipal';
+import NoticiaDetalle from "./componentes/NoticiasExtendida"
 import Estadisticas from './componentes/Estadisticas/Estadisticas';
 import PrimeraExtendida from './componentes/Primera/PrimeraExtendida';
 import PrimeraPrincipal from './componentes/Primera/PrimeraPrincipal';
@@ -31,6 +32,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
+        <Route path="/noticia/:id" element={<NoticiaDetalle />} />
         <Route path="/estadisticas" element={<Estadisticas />} />
         <Route path="/primera" element={<PrimeraPrincipal />} />
         <Route path="/ascenso" element={<AscensoPrincipal />} />

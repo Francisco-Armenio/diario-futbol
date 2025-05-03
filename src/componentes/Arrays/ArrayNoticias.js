@@ -2,13 +2,12 @@ const noticias = [
     {
         id: 1,
         imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
-        minititulo: "hola",
-        titulo: "dadwdwa",
+        minititulo: "Inicio",
+        titulo: "ddddddddddd ddddddddd dddddddddd ddddddddddd ddddddddddd",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
         info:"fwafwa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
     {
@@ -20,7 +19,6 @@ const noticias = [
         info:"fwafa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 10,
     },
     {
@@ -44,7 +42,6 @@ const noticias = [
         info:"fwafwa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
     {
@@ -56,7 +53,6 @@ const noticias = [
         info:"fwafaw",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
     {
@@ -68,7 +64,6 @@ const noticias = [
         info:"wfafa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
     {
@@ -80,7 +75,6 @@ const noticias = [
         info:"afwfwaf",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
     {
@@ -92,7 +86,6 @@ const noticias = [
         info:"faefeaf",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
         likes: 0,
     },
 ];
