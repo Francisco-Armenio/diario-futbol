@@ -9,28 +9,35 @@ const NoticiasPaginaPrincipal = () => {
     return (
         <div className="noticias-pagina-principal">
             <Link to={`/noticia/${noticiaDestacada.id}`} className='noticia-destacada'>
-                <img className='imagen-grande' src={noticiaDestacada.imagen} alt="" />
-                <div className="info-destacada">
-                    <div className="top-info">
-                        <h2 className='titulo-grande'>{noticiaDestacada.titulo}</h2>
-                        <p className='contenido-destacado-principal'>{noticiaDestacada.miniinfo}</p>
-                        <p className='autor-destacado'>por {noticiaDestacada.autor} · {noticiaDestacada.fecha}</p>
-                    </div>
+                <div className="noticia-destacada-img">
+                    <img src={noticiaDestacada.imagen} alt={noticiaDestacada.titulo} />
+                </div>
+                <div className="noticia-destacada-info">
+                    <h2 className="nd-titulo">{noticiaDestacada.titulo}</h2>
+                    <p className="nd-miniinfo">{noticiaDestacada.miniinfo}</p>
+                    <p className="nd-autor">Por <span>{noticiaDestacada.autor}</span> · <span className="nd-fecha">{noticiaDestacada.fecha}</span></p>
                 </div>
             </Link>
 
-
-
-            <div className="noticias-secundarias">
+            <div className="noticias-secundarias-grid">
                 {noticiasSecundarias.map((noticia) => (
-                    <Link to={`/noticia/${noticia.id}`} key={noticia.id} className='card-noticia-secundaria'>
-                        <img className='imagen-chica' src={noticia.imagen} alt="" />
-                        <p className='fecha-secundaria'>{noticia.fecha}</p>
-                        <div className='info-secundaria'>
-                            <p className='minititulo'>{noticia.minititulo}</p>
-                            <h3 className='titulo-chico'>{noticia.titulo}</h3>
-                            <p className='contenido-secundario'>{noticia.miniinfo}</p>
-                            <p className='autor-secundario'>por {noticia.autor}</p>
+                    <Link to={`/noticia/${noticia.id}`} key={noticia.id} className="card-noticia-secundaria">
+                        <div className="card-secundaria-img">
+                            <img src={noticia.imagen} alt={noticia.titulo} />
+                        </div>
+                        <div className="card-secundaria-content">
+                            <div className="card-secundaria-header">
+                                <p className="card-minititulo">{noticia.minititulo}</p>
+                                <p className="card-fecha">{noticia.fecha}</p>
+                            </div>
+                            <h2 className="card-titulo">{noticia.titulo}</h2>
+                            <p className="card-miniinfo">{noticia.miniinfo}</p>
+                            <div className="card-secundaria-footer">
+                                <p className="card-autor">por {noticia.autor}</p>
+                                <p className="card-likes">
+                                    <img src="https://cdn-icons-png.flaticon.com/128/18280/18280312.png" alt="like" /> {noticia.likes}
+                                </p>
+                            </div>
                         </div>
                     </Link>
                 ))}
@@ -40,3 +47,4 @@ const NoticiasPaginaPrincipal = () => {
 };
 
 export default NoticiasPaginaPrincipal;
+/**/

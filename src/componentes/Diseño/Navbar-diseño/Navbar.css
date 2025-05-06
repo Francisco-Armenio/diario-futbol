@@ -1,18 +1,17 @@
+/* Estilo general para la barra de navegación */
 .navbar {
-    font-family: 'Arial', sans-serif;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Sección superior */
+/* Barra superior (redes sociales y enlaces) */
 .navbar-superior {
-    background: linear-gradient(45deg, #0d1117, #161b22);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    color: #c9d1d9;
+    padding: 15px;
+    background-color: #f7f7f7;
 }
 
 .mis-redes-parte-izquierda {
@@ -21,124 +20,114 @@
     gap: 15px;
 }
 
-.mis-redes-parte-izquierda a img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.mis-redes-parte-izquierda a img:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
+.mis-redes-parte-izquierda a {
+    display: flex;
+    align-items: center;
 }
 
 .mi-gmail {
     display: flex;
     align-items: center;
-    font-size: 0.9em;
-}
-
-.mi-gmail img {
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
+    font-size: 14px;
+    color: #444;
 }
 
 .informacion-ligas-parte-derecha {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .informacion-ligas-parte-derecha a {
-    color: #58a6ff;
-    text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 5px;
-    transition: color 0.3s ease;
+    font-size: 14px;
+    color: #444;
+    text-decoration: none;
 }
 
 .informacion-ligas-parte-derecha a:hover {
-    color: #1f6feb;
+    color: #000;
 }
 
-.informacion-ligas-parte-derecha img {
+/* Barra central (logo y menú de navegación) */
+.navbar-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu-lista {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu-item {
+    font-size: 16px;
+    color: #444;
+}
+
+.navbar-menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-menu-item a:hover {
+    color: #000;
+}
+
+/* Barra inferior (noticias del día) */
+.navbar-inferior {
+    display: flex;
+    align-items: center; 
+    padding: 15px;
+    background-color: #f7f7f7;
+}
+
+.noticia-del-dia {
+    font-size: 14px;
+    color: #444;
+    margin-right: 20px; 
+}
+
+.mini-noticia {
+    font-size: 14px;
+    color: #444;
+    text-decoration: none;
+    margin-right: 15px; 
+}
+
+.mini-noticia:hover {
+    color: #000;
+}
+
+
+/* Estilo de las imágenes de redes sociales */
+.navbar-superior img {
     width: 20px;
     height: 20px;
 }
 
-
-/* Sección central */
-.navbar-central {
-    background-color: #21262d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    color: #c9d1d9;
-}
-
-.logotipo .logo {
-    font-size: 1.5em;
-    color: #58a6ff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.logotipo .logo:hover {
-    color: #1f6feb;
-}
-
-/* Menú */
-.navbar-menu-lista {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-menu-item .menu-item-link {
-    color: #c9d1d9;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar-menu-item .menu-item-link:hover {
-    background-color: #30363d;
-    color: #58a6ff;
-}
-
-/* Sección inferior */
-.navbar-inferior {
-    background-color: #161b22;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    color: #c9d1d9;
-}
-
-.navbar-inferior p {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.navbar-inferior a {
-    color: #c9d1d9;
-    text-decoration: none;
-    background: #30363d;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.navbar-inferior a:hover {
-    background: #21262d;
-    transform: scale(1.1);
+.navbar-menu img {
+    width: 20px;
+    height: 20px;
 }

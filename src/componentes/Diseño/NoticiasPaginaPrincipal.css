@@ -1,119 +1,173 @@
 .noticias-pagina-principal {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-/* Noticia destacada */
-.noticia-destacada {
-    display: flex;
-    gap: 20px;
-    text-decoration: none;
-    background: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    position: relative;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-}
-
-.imagen-grande {
-    width: 60%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.info-destacada {
-    width: 40%;
+    padding: 40px 20px; /* Añadimos padding superior e inferior para separar del navbar */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrado vertical */
-    align-items: flex-start; /* Alineación a la izquierda */
-    gap: 12px;
-}
-
-.top-info {
-    text-align: left; /* Alinea el contenido a la izquierda */
-    width: 100%; /* Asegura que los elementos se alineen correctamente */
-}
-
-.titulo-grande {
-    font-size: 28px; /* Aumentamos el tamaño */
-    font-weight: bold;
-    color: #333; /* Color oscuro para el título */
-    margin-bottom: 12px;
-}
-
-.contenido-destacado-principal {
-    font-size: 16px;
-    color: #444;
-    margin-bottom: 12px;
-}
-
-.autor-destacado {
-    font-size: 14px;
-    color: #555; /* Color más oscuro para el autor */
-}
-
-.fecha {
-    font-size: 14px;
-    color: #bbb; /* Fecha más clara */
+    gap: 40px;
 }
 
 
-/* Noticias secundarias */
-.noticias-secundarias {
+.noticia-destacada {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1.5px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 0 auto 32px auto;
+    max-width: 2000px;
+    width: 95%;
+}
+
+.noticia-destacada:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.noticia-destacada-img {
+    flex: 1.4;
+    min-width: 0;
+}
+
+.noticia-destacada-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.noticia-destacada-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+
+.nd-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.3;
+}
+
+.nd-miniinfo {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.nd-autor {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nd-autor span:first-child {
+    font-weight: 600;
+    color: #333;
+}
+
+.nd-fecha {
+    color: #999;
+}
+
+
+/*noticias secundarias*/
+
+.noticias-secundarias-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card-noticia-secundaria {
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
     overflow: hidden;
     text-decoration: none;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.imagen-chica {
+.card-noticia-secundaria:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-secundaria-img img {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    display: block;
 }
 
-.fecha-secundaria {
-    font-size: 12px;
-    color: #999;
-    text-align: right;
-    padding: 6px 12px 0;
-}
-
-.info-secundaria {
-    padding: 16px;
+.card-secundaria-content {
+    padding: 14px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.titulo-chico {
-    font-size: 18px;
-    color: #111;
-    margin: 0;
-}
-
-.contenido-secundario {
-    font-size: 15px;
-    color: #444;
-    margin: 0;
-}
-
-.autor-secundario {
-    font-size: 13px;
+.card-secundaria-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
     color: #777;
+}
+
+.card-minititulo {
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.card-fecha {
+    color: #555;
+}
+
+.card-titulo {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111;
+    margin: 6px 0;
+}
+
+.card-miniinfo {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.4;
+}
+
+.card-secundaria-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: auto;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.card-autor {
+    font-style: italic;
+}
+
+.card-likes {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-likes img {
+    width: 16px;
+    height: 16px;
 }

@@ -17,9 +17,7 @@ const NavbarPaginaPrincipal = () => {
                 </div>
             </div>
             <div className='navbar-central'>
-                <div className='logotipo'>
                     <Link to="/" className='logo'>Futbol para todos</Link>
-                </div>
                 <div className='navbar-menu'>
                     <ul className='navbar-menu-lista'>
                         <li className='navbar-menu-item'>
@@ -37,17 +35,14 @@ const NavbarPaginaPrincipal = () => {
                         <li className='navbar-menu-item'>
                             <Link to="/" className='menu-item-link'>SELECCION</Link>
                         </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/" className='menu-item-link'>FORMULA 1</Link>
-                        </li>
                     </ul>
                 </div>
             </div>
             <div className='navbar-inferior'>
-                <p>Noticias del dia:</p>
-                <Link to="/">a definir</Link>
-                <Link to="/">a definir</Link>
-                <Link to="/">a definir</Link>
+                <p className='noticia-del-dia'>Noticias del dia:</p>
+                <Link className='mini-noticia' to="/">a definir</Link>
+                <Link className='mini-noticia' to="/">a definir</Link>
+                <Link className='mini-noticia' to="/">a definir</Link>
             </div>
         </div>
     )
