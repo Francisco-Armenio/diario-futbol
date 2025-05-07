@@ -19,7 +19,7 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     margin: 0 auto 32px auto;
     max-width: 2000px;
-    width: 95%;
+    width: 88%;
 }
 
 .noticia-destacada:hover {

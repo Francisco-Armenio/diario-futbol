@@ -11,7 +11,6 @@ const NavbarPrimera = () => {
     independiente: ["Independiente busca refuerzos", "Festejos por aniversario"],
     racing: ["Racing confirma amistoso internacional", "Gago vuelve al banco"],
     sanlorenzo: ["San Lorenzo cierra pretemporada", "Nuevos juveniles se suman"],
-    // Agregá más según tu array
   };
 
   const volverANoticiasGenerales = () => {
@@ -57,24 +56,25 @@ const NavbarPrimera = () => {
           </>
         )}
       </div>
-
-      <div className='equipo-navbar-primera'>
-        <ul className='linea-equipos-primera'>
-          {primera.map((equipo) => (
-            <li
-              key={equipo.id}
-              className="equipos-primera"
-              onClick={() => setEquipoSeleccionado(equipo.nombre)}
-              style={{ cursor: 'pointer' }}
-            >
-              <img
-                src={equipo.imagen}
-                alt={`Escudo de ${equipo.nombre}`}
-                className="escudo-equipo-primera"
-              />
-            </li>
-          ))}
-        </ul>
+      <div className='futbol-primera'>
+        <div className='equipo-navbar-primera'>
+          <ul className='linea-equipos-primera'>
+            {primera.map((equipo) => (
+              <li
+                key={equipo.id}
+                className="equipos-primera"
+                onClick={() => setEquipoSeleccionado(equipo.nombre)}
+                style={{ cursor: 'pointer' }}
+              >
+                <img
+                  src={equipo.imagen}
+                  alt={`Escudo de ${equipo.nombre}`}
+                  className="escudo-equipo-primera"
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
