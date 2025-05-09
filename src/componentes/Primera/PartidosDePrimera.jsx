@@ -7,7 +7,6 @@ const PartidosDePrimera = () => {
 
     return (
         <div className="contenedor-vivo-moderno">
-            <h2 className="titulo-vivo">Partidos en Vivo</h2>
             {partidosEnVivo.map(partido => (
                 <Link to={`/partido/${partido.id}`} key={partido.id} className="partido-link">
                     <div className="partido-vivo">

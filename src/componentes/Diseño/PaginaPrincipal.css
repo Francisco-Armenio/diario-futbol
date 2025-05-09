@@ -2,22 +2,15 @@
     display: flex;
     width: 100%;
     gap: 20px;
-    /* Espacio entre ambas secciones */
     padding: 20px;
 }
 
 .contenedor-primera>.primera {
     flex: 0 0 60%;
+    margin-top: 30px;
 }
 
 .contenedor-primera>.partidos-de-primera {
     flex: 0 0 40%;
-}
-
-
-@media (max-width: 1024px) {
-    .contenedor-principal {
-        grid-template-columns: 1fr;
-        /* Cambia a una sola columna en pantallas pequeñas */
-    }
+    margin-top: 30px;
 }

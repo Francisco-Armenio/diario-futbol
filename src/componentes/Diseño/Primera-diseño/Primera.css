@@ -1,44 +1,38 @@
 .contenedor-noticias {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     padding: 20px;
-    margin-top: 80px;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
-
 .card-noticia-campeonato {
-    border: 2px solid black;
+    flex: 0 0 48%;
+    /* Dos por fila con espacio */
+    border: 1px solid #ddd;
     border-radius: 12px;
     overflow: hidden;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    padding: 0;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    cursor: pointer;
 }
 
 .card-noticia-campeonato:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .noticia-extendida {
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .imagenes-noticia-campeonato {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    display: block;
-    margin: 0;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }
 
 .data-noticia {
@@ -51,32 +45,42 @@
 .mini-informacion {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 0.9rem;
     color: #666;
 }
 
-.titulo-noticia-campeonato {
-    font-size: 20px;
+.minititulo-de-noticia {
     font-weight: bold;
+}
+
+.frcha-de-nocticia {
+    font-style: italic;
+}
+
+.titulo-noticia-campeonato {
+    font-size: 1.3rem;
+    font-weight: 600;
     margin: 0;
     color: #222;
 }
 
 .miniinfo-campeonato {
-    font-size: 14px;
+    font-size: 1rem;
     color: #444;
 }
 
 .informacion-creador-de-nota {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    color: #888;
     align-items: center;
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: auto;
 }
 
 .like-noticia-campeonato img {
-    width: 14px;
+    width: 16px;
+    height: 16px;
     vertical-align: middle;
     margin-right: 4px;
 }

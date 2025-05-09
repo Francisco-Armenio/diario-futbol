@@ -408,13 +408,13 @@ const partidos = [
         resultado1: 1,
         resultado2: 1,
         eventos: [
-            { tipo: 'amarilla', jugador: 'Leonardo Godoy', minuto: 12, equipo: 'Local'},
-            { tipo: 'gol', jugador: 'Mauro Boselli', minuto: 16, equipo: 'Local', asistencia: 'Eros Mancuso' },
-            { tipo: 'amarilla', jugador: 'Federico Vera', minuto: 29, equipo: 'Visitante'},
-            { tipo: 'gol', jugador: 'Jerónimo Domina', minuto: 43, equipo: 'Visitante'},
-            { tipo: 'amarilla', jugador: 'Santiago Ascacíbar', minuto: 51, equipo: 'Local'},
-            { tipo: 'amarilla', jugador: 'Enzo Roldán', minuto: 62, equipo: 'Visitante'},
-            { tipo: 'roja', jugador: 'Santiago Ascacíbar', minuto: 67, equipo: 'Local'},
+            { tipo: 'amarilla', jugador: 'Leonardo Godoy', minuto: 12, equipo: 'Visitante'},
+            { tipo: 'gol', jugador: 'Mauro Boselli', minuto: 16, equipo: 'Visitante', asistencia: 'Eros Mancuso' },
+            { tipo: 'amarilla', jugador: 'Federico Vera', minuto: 29, equipo: 'Local'},
+            { tipo: 'gol', jugador: 'Jerónimo Domina', minuto: 43, equipo: 'Local'},
+            { tipo: 'amarilla', jugador: 'Santiago Ascacíbar', minuto: 51, equipo: 'Visitante'},
+            { tipo: 'amarilla', jugador: 'Enzo Roldán', minuto: 62, equipo: 'Local'},
+            { tipo: 'roja', jugador: 'Santiago Ascacíbar', minuto: 67, equipo: 'Visitante'},
             
         ],
         cambios: [
