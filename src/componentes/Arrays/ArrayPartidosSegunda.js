@@ -1,4 +1,4 @@
-const partidos = [
+const partidosAscenso = [
     {
         id: 1,
         imagen1:"",
@@ -190,7 +190,8 @@ const partidos = [
         equipo1: "Alvarado",
         imagen2:"",
         equipo2: "Patronato",
-        estado: "21:00"
+        estado: "21:00",
+        porJugar: "Por jugar",
     },
     {
         id: 10,
@@ -219,4 +220,4 @@ const partidos = [
 ]
 
 
-export default partidos; 
+export default partidosAscenso; 

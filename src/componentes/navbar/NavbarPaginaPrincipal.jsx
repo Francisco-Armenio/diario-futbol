@@ -13,7 +13,7 @@ const NavbarPaginaPrincipal = () => {
                 </div>
                 <div className='informacion-ligas-parte-derecha'>
                     <Link to="/estadisticas" className='estadisticas'><img src="https://cdn-icons-png.flaticon.com/128/15594/15594544.png" alt="Estadisticas" />Estadiscticas</Link>
-                    <Link to="/" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/2738/2738169.png" alt="Agenda" />Agenda</Link>
+                    <Link to="/agenda" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/2738/2738169.png" alt="Agenda" />Agenda</Link>
                 </div>
             </div>
             <div className='navbar-central'>

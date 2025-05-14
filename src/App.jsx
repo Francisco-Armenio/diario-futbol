@@ -12,6 +12,7 @@ import './componentes/Diseño/Primera-diseño/PrimeraPrincipal.css';
 import './componentes/Diseño/Primera-diseño/PartidosPrimera.css';
 import './componentes/Diseño/Primera-diseño/DatosDelPartido.css';
 import './componentes/Diseño/Primera-diseño/EventosPrimera.css'
+import './componentes/Diseño/Agenda-diseño/Agenda.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
@@ -25,6 +26,7 @@ import AscensoPrincipal from './componentes/Ascenso/AscensoPrincipal';
 import SegundaExtendida from './componentes/Ascenso/SegundaExtendida';
 import PartidosDeSegunda from './componentes/Ascenso/PartidosDeSegunda';
 import DatosDelPartidoAscenso from './componentes/Ascenso/DatosDelPartidoAscenso';
+import Agenda from './componentes/Agenda/Agenda';
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/noticia/:id" element={<NoticiaDetalle />} />
         <Route path="/estadisticas" element={<Estadisticas />} />
+        <Route path="/agenda" element={<Agenda />} />
         <Route path="/primera" element={<PrimeraPrincipal />} />
         <Route path="/ascenso" element={<AscensoPrincipal />} />
         <Route path="/ascenso/:id" element={<SegundaExtendida/>}/>
