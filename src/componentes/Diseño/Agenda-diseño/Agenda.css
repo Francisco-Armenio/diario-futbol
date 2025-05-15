@@ -1,34 +1,152 @@
+.divisiones-agenda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.agenda-de-partido {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mensaje-sin-partidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+.mensaje-sin-partidos {
+    width: 100%;
+}
+
+.titulo-categoria-agenda {
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo-division-agenda {
+    width: 32px;
+    height: 32px;
+}
+
+
 .agenda-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
 }
 
-section {
-  margin-top: 30px;
+.botones-filtro-agenda {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.card-partido {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 16px;
-  margin: 12px 0;
-  background-color: #fafafa;
-  transition: transform 0.2s ease;
+.botones-filtro-agenda button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
-.card-partido:hover {
-  transform: scale(1.02);
-  background-color: #f0f0f0;
+.botones-filtro-agenda button:hover {
+    background-color: #0056b3;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
+.division-header-agenda {
+    margin-bottom: 40px;
 }
 
-h3 {
-  margin-bottom: 10px;
-  color: #333;
+.divisiones-agenda {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-division-agenda {
+    width: 40px;
+    height: auto;
+}
+
+.lista-partidos-agenda {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card-partido-agenda {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card-partido-agenda:hover {
+    transform: scale(1.02);
+    background-color: #f4f9ff;
+}
+
+.linea-superior-partido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.imagen-equipos-agenda {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.nombre-equipos-agenda {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.resultado-agenda {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.linea-inferior-partido {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.estado-agenda {
+    font-weight: bold;
+    color: #333;
 }

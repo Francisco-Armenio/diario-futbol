@@ -1,6 +1,6 @@
 const partidosAscenso = [
     {
-        id: 1,
+        id: 13,
         imagen1:"",
         equipo1: "Chacarita Jrs",
         imagen2:"",
@@ -8,7 +8,7 @@ const partidosAscenso = [
         estado: "En vivo",
         minuto: "68'",
         resultado1: 3,
-        resultado2: 1,
+        resultado2: 2,
         eventos: [
             { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Local', asistencia: 'Barco' },
             { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'Visitante' },
@@ -129,93 +129,109 @@ const partidosAscenso = [
         ]
     },
     {
-        id: 2,
+        id: 14,
         imagen1:"",
         equipo1: "Dep. Riestra",
         imagen2:"",
         equipo2: "Colon",
-        estado: "En vivo"
+        estado: "En vivo",
+        minuto: "68'",
+        resultado1: 3,
+        resultado2: 2,
     },
     {
-        id: 3,
+        id: 15,
         imagen1:"",
         equipo1: "Godoy Cruz",
         imagen2:"",
         equipo2: "Quilmes",
-        estado: "En vivo"
+        estado: "En vivo",
+        minuto: "68'",
+        resultado1: 3,
+        resultado2: 2,
     },
     {
-        id: 4,
+        id: 16,
         imagen1:"",
         equipo1: "Güemes(Sda)",
         imagen2:"",
         equipo2: "Estudiantes(BA)",
-        estado: "En vivo"
+        estado: "En vivo",
+        minuto: "68'",
+        resultado1: 3,
+        resultado2: 2,
     },
     {
-        id: 5,
+        id: 17,
         imagen1:"",
         equipo1: "Brown(Adrogué)",
         imagen2:"",
         equipo2: "Huracan",
-        estado: "19:00"
+        estado: "Proximo",
+        fecha: "19:00",
     },
     {
-        id: 6,
+        id: 18,
         imagen1:"",
         equipo1: "Dep. Moron",
         imagen2:"",
         equipo2: "Aldosivi",
-        estado: "19:00"
+        estado: "Proximo",
+        fecha: "19:00",
     },
     {
-        id: 7,
+        id: 19,
         imagen1:"",
         equipo1: "Los Andes",
         imagen2:"",
         equipo2: "Central Cordoba(Sda)",
-        estado: "19:00"
+        estado: "Proximo",
+        fecha: "19:00",
     },
     {
-        id: 8,
+        id: 20,
         imagen1:"",
         equipo1: "Santamarina",
         imagen2:"",
         equipo2: "San Martin(Tucuman)",
-        estado: "19:00"
+        estado: "Proximo",
+        fecha: "19:00",
     },
     {
-        id: 9,
+        id: 21,
         imagen1:"",
         equipo1: "Alvarado",
         imagen2:"",
         equipo2: "Patronato",
-        estado: "21:00",
-        porJugar: "Por jugar",
+        estado: "Proximo",
+        fecha: "21:00",
     },
     {
-        id: 10,
+        id: 22,
         imagen1:"",
         equipo1: "Atl. Tucuman",
         imagen2:"",
         equipo2: "Agropecuario",
-        estado: "21:00"
+        estado: "Proximo",
+        fecha: "21:00",
     },
     {
-        id: 11,
+        id: 23,
         imagen1:"",
         equipo1: "Atlanta",
         imagen2:"",
         equipo2: "San Martin(SJ)",
-        estado: "21:00"
+        estado: "Proximo",
+        fecha: "21:00",
     },
     {
-        id: 12,
+        id: 24,
         imagen1:"",
         equipo1: "Gimnasia(Mendoza)",
         imagen2:"",
         equipo2: "All Boys",
-        estado: "21:00"
+        estado: "Proximo",
+        fecha: "21:00",
     },
 ]
 
