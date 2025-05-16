@@ -1,15 +1,15 @@
 const infoPrimera = [
     {
         id: 1,
-        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
+        imagen: "https://deportv.gob.ar/thumbs/advf/imagenes/2025/01/67941be183239_1200.webp",
         minititulo: "Primera",
-        titulo: "dadwdwa",
-        miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafwa",
+        titulo: "Independiente arrolló a Sarmiento con una goleada contundente en Avellaneda",
+        miniinfo: "Con un Ávalos encendido y un equipo encadenado, el Rojo se impuso 4-0 y se ilusiona con pelear arriba.",
+        info: "En la fecha 28 del campeonato, Independiente confirmo su gran momento con una aplastante victoria 4-0 frente a Sarmiento en Avellaneda. El equipo de Avellaneda se mantiene firme en la 4.ª posicion de la tabla y continua en plena lucha por la clasificacion a torneos internacionales.\n\nGabriel Avalos fue la gran figura de la tarde, marcando un doblete (11’ y 50’) que dejo sin respuesta a una defensa visitante completamente superada. Alexis Canelo (29’) e Ignacio Maestro Puch (78’), quien ingreso desde el banco, completaron la goleada. \n\nEl Rojo domino de principio a fin: tuvo el 63% de la posesion, disparo 16 veces y apenas permitio un remate al arco. La asistencia de Ayrton Costa en el primer gol y el ingreso clave de Federico Mancuello —que dio una asistencia apenas entro— tambien fueron puntos altos.\n\nPor el lado de Sarmiento, el panorama es alarmante. Ubicado en el ultimo puesto (24.°) y cada vez mas comprometido con el descenso, el equipo de Junin volvio a mostrar una version palida. Las tarjetas a Insaurralde y Mancilla reflejan la impotencia de un equipo que no encuentra respuestas.\n\nCon este triunfo, Independiente alcanza los 56 puntos y se ilusiona con dar pelea hasta el final. La proxima fecha visitara a Newell’s en Rosario. Sarmiento, por su parte, debera reaccionar con urgencia cuando reciba a Arsenal, en un duelo clave por la permanencia.",
         autor: "Juan Pérez",
-        fecha: "2025-01-07",
-        categoria: "Ciencia",
-        likes: 0,
+        fecha: "Hace 2 dias",
+        categoria: "Primera División",
+        likes: 0
     },
     {
         id: 2,
