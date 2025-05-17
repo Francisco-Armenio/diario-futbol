@@ -277,11 +277,11 @@ const  partidosPrimera = [
         resultado1: 0,
         resultado2: 2,
         eventos: [
-            { tipo: 'gol', jugador: 'Lucas Albertengo', minuto: 18, equipo: 'Local', asistencia: 'Agustín Pastorelli' },
-            { tipo: 'amarilla', jugador: 'Cristian Lema', minuto: 25, equipo: 'Visitante' },
-            { tipo: 'gol', jugador: 'Marco Borgnino', minuto: 39, equipo: 'Local', asistencia: 'Facundo Soloa' },
-            { tipo: 'amarilla', jugador: 'Roque Ramírez', minuto: 44, equipo: 'Local'},
-            { tipo: 'amarilla', jugador: 'Martín Luciano', minuto: 60, equipo: 'Visitante' },
+            { tipo: 'gol', jugador: 'Lucas Albertengo', minuto: 18, equipo: 'Visitante', asistencia: 'Agustín Pastorelli' },
+            { tipo: 'amarilla', jugador: 'Cristian Lema', minuto: 25, equipo: 'Local' },
+            { tipo: 'gol', jugador: 'Marco Borgnino', minuto: 39, equipo: 'Visitante', asistencia: 'Facundo Soloa' },
+            { tipo: 'amarilla', jugador: 'Roque Ramírez', minuto: 44, equipo: 'Visitante'},
+            { tipo: 'amarilla', jugador: 'Martín Luciano', minuto: 60, equipo: 'Local' },
         ],
         cambios: [
             { jugadorSaliente: 'Brian Aguirre', jugadorEntrante: 'Francisco González', minuto: 46, equipo: 'Local' },
@@ -1158,7 +1158,7 @@ const  partidosPrimera = [
         eventos: [
             { tipo: 'gol', jugador: 'Alan Lescano', minuto: 18, equipo: 'Local', asistencia: 'Kevin Mac Allister' },
             { tipo: 'amarilla', jugador: 'Facundo Mura', minuto: 22, equipo: 'Visitante' },
-            { tipo: 'gol', jugador: 'Adrián “Maravilla” Martínez', minuto: 31, equipo: 'Visitante', asistencia: 'Juanfer Quintero' },
+            { tipo: 'gol', jugador: 'Adrián Martínez', minuto: 31, equipo: 'Visitante', asistencia: 'Juanfer Quintero' },
             { tipo: 'amarilla', jugador: 'Nicolás Oroz', minuto: 39, equipo: 'Visitante' },
             { tipo: 'gol', jugador: 'Luciano Gondou', minuto: 44, equipo: 'Local', asistencia: 'Santiago Montiel' },
             { tipo: 'amarilla', jugador: 'Marco Di Césare', minuto: 58, equipo: 'Local' },
@@ -1170,7 +1170,7 @@ const  partidosPrimera = [
             { jugadorSaliente: 'Gonzalo Verón', jugadorEntrante: 'Luciano Gondou', minuto: 60, equipo: 'Local' },
             { jugadorSaliente: 'Gastón Verón', jugadorEntrante: 'Lescano', minuto: 60, equipo: 'Local' },
             { jugadorSaliente: 'Agustín Almendra', jugadorEntrante: 'Juanfer Quintero', minuto: 65, equipo: 'Visitante' },
-            { jugadorSaliente: 'Roger Martínez', jugadorEntrante: 'Maravilla Martínez', minuto: 65, equipo: 'Visitante' },
+            { jugadorSaliente: 'Roger Martínez', jugadorEntrante: 'Adrián Martínez', minuto: 65, equipo: 'Visitante' },
             { jugadorSaliente: 'Tomás Avilés', jugadorEntrante: 'Pillud', minuto: 65, equipo: 'Visitante' },
         ],
         estadisticas:{
