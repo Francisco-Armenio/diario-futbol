@@ -3,162 +3,89 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: #121212; /* Fondo oscuro */
+    background-color: #f5f8fa; /* Fondo claro y suave */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border-radius: 8px;  <-- Quitado */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .titulo-principal {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #ff9800; /* Naranja del navbar */
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #2c3e50; /* Gris oscuro */
 }
 
 .tabla-de-posiciones {
     width: 100%;
-    border-collapse: collapse;
-    background-color: #1e1e1e; /* Fondo oscuro similar a noticias */
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-collapse: separate;
+    border-spacing: 0 4px; /* pequeño espacio entre filas */
+    background-color: transparent;
+    /* border-radius: 8px;  <-- Quitado */
+    box-shadow: none;
 }
 
 .tabla-de-posiciones th, 
 .tabla-de-posiciones td {
-    padding: 12px;
+    padding: 14px 18px;
     text-align: left;
-    border-bottom: 1px solid #333;
-    color: white; /* Color blanco para texto y números */
+    border-bottom: none;
+    color: #34495e; /* Gris azulado */
+    background-color: #ffffff; /* fondo blanco para celdas */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    /* border-radius: 0;  <-- Explicitamente sin radio */
 }
 
 .tabla-de-posiciones th {
-    background-color: #222;
-    color: #ff9800; /* Naranja para títulos */
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    font-weight: 600;
+    box-shadow: none;
 }
 
-/* Colores suaves, pero más oscuros */
-.equipo-libertadores {
-    background-color: #2a3b5d; /* Azul oscuro */
-    color: #b3d1ff;
+/* Elimina el borde redondeado de las filas */
+.datos-de-equipos td {
+    border-radius: 0;
 }
 
-.equipo-sudamericana {
-    background-color: #5a4a23; /* Amarillo oscuro */
-    color: #fff3cd;
+/* Colores y barra lateral para las posiciones */
+.equipo-libertadores td {
+    background-color: #d4f0d4; /* verde claro */
 }
 
-.equipo-descenso {
-    background-color: #5d2a2a; /* Rojo oscuro */
-    color: #f8d7da;
+.equipo-sudamericana td {
+    background-color: #fff3d6; /* amarillo pastel */
 }
 
+.equipo-descenso td {
+    background-color: #f9d6d6; /* rojo pastel */
+}
+
+.equipo-libertadores .posicion {
+    border-left: 6px solid #27ae60; /* verde */
+}
+
+.equipo-sudamericana .posicion {
+    border-left: 6px solid #f39c12; /* naranja */
+}
+
+.equipo-descenso .posicion {
+    border-left: 6px solid #c0392b; /* rojo */
+}
+
+/* Imagen y texto del equipo alineados */
 .imagen-de-club {
     width: 30px;
     height: 30px;
-    margin-right: 8px;
+    margin-right: 10px;
     vertical-align: middle;
 }
 
 .informacion-del-equipo {
-    display: flex; /* Para alinear en línea la imagen y el nombre */
-    align-items: center; /* Centra verticalmente el contenido */
+    display: flex;
+    align-items: center;
 }
 
 .nombre-de-club {
-    font-weight: bold;
-    color: white;
-    margin-left: 10px; /* Espaciado entre la imagen y el nombre */
-}
-
-/* Se quita el cambio de color al pasar el cursor */
-.datos-de-equipos:hover {
-    background-color: inherit;
-}
-
-/* Estilo general */
-.fecha-importante {
-    width: 100%;
-    max-width: 600px; /* Línea 6: Reduje el ancho del contenedor */
-    margin: 20px auto; /* Línea 7: Reduje el margen */
-    padding: 15px; /* Línea 8: Reduje el padding */
-    background-color: #0a3d62; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: white;
-}
-
-/* Título */
-.titulo-del-partido {
-    font-size: 20px; /* Línea 17: Reduje el tamaño del título */
-    text-align: center;
-    margin-bottom: 15px; /* Línea 19: Reduje el margen inferior */
-}
-
-/* Contenedor principal */
-.partido-del-dia {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px; /* Línea 26: Reduje el espacio entre elementos */
-}
-
-/* Información del Día */
-.info-del-dia {
-    flex: 1;
-    text-align: right;
-}
-
-.dia-del-partido {
-    font-size: 16px; /* Línea 35: Reduje el tamaño de la fecha */
-    margin-bottom: 4px; /* Línea 36: Reduje el margen inferior */
-}
-
-.fin-partido {
-    font-size: 14px; /* Línea 40: Reduje el tamaño del texto */
-    color: #f5a623;
-    font-weight: bold;
-}
-
-/* Equipos (Nombre al lado de la imagen) */
-.equipos-que-juegan {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px; /* Línea 51: Reduje el espacio entre los equipos */
-}
-
-.equipo {
-    display: flex;
-    align-items: center;
-    gap: 8px; /* Línea 56: Reduje el espacio entre imagen y nombre */
-}
-
-.equipo-del-dia {
-    width: 40px; /* Línea 60: Reduje el tamaño de la imagen */
-    height: 40px; /* Línea 61: Reduje el tamaño de la imagen */
-    object-fit: contain;
-}
-
-.nombre-equipo {
-    font-size: 16px; /* Línea 66: Reduje el tamaño del texto del equipo */
-    font-weight: bold;
-    color: white;
-}
-
-/* Resultado */
-.resultado-del-dia {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px; /* Línea 75: Reduje el espacio entre los resultados */
-}
-
-.resultado {
-    font-size: 20px; /* Línea 79: Reduje el tamaño del resultado */
-    font-weight: bold;
-    color: white;
-    margin: 0;
+    font-weight: 700;
+    color: #2c3e50;
 }
