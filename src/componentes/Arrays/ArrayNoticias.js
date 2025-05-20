@@ -1,22 +1,23 @@
 const noticias = [
     {
         id: 1,
-        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
-        minititulo: "Inicio",
-        titulo: "ddddddddddd ddddddddd dddddddddd ddddddddddd ddddddddddd",
-        miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafwa",
+        imagen: "https://media.urgente24.com/p/47e80a2a22bf3a7e1f23e257fa4a4e85/adjuntos/319/imagenes/002/979/0002979734/lbz7jgaj5ncsrh7yunzy2af2qujpg.jpg",
+        minititulo: "Descenso al rojo vivo",
+        titulo: "Expulsión de Ascacíbar complica a Estudiantes ante Unión en una final anticipada",
+        miniinfo: "El mediocampista del Pincha vio la roja en un partido caliente por la permanencia. El duelo está 1-1 y arde Santa Fe.",
+        info: "Estudiantes de La Plata sufre un duro golpe en su visita a Santa Fe: Santiago Ascacíbar fue expulsado a los 67 minutos y deja a su equipo con 10 jugadores en un momento clave del partido ante Unión. Ambos equipos llegan al duelo ocupando los últimos puestos de la tabla —Estudiantes en el 22.º lugar y Unión en el 23.º— y se juegan la permanencia en esta fecha crucial. El partido comenzó con ventaja para el Pincha gracias al gol de Mauro Boselli a los 16', pero el local reaccionó antes del descanso con el empate de Jerónimo Domina a los 43’. El partido, muy disputado y friccionado, ha acumulado varias amonestaciones, y la expulsión de Ascacíbar puede inclinar la balanza en favor del Tatengue. Restan 20 minutos decisivos en una verdadera final por evitar el descenso.",
         autor: "Juan Pérez",
-        fecha: "2025-01-07",
-        likes: 0,
+        fecha: "Hace 5 minutos",
+        likes: 0
     },
+
     {
         id: 2,
         imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafa",
+        info: "fwafa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 10,
@@ -27,7 +28,7 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafw",
+        info: "fwafw",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         categoria: "Ciencia",
@@ -39,7 +40,7 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafwa",
+        info: "fwafwa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 0,
@@ -50,7 +51,7 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"fwafaw",
+        info: "fwafaw",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 0,
@@ -61,7 +62,7 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"wfafa",
+        info: "wfafa",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 0,
@@ -72,7 +73,7 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"afwfwaf",
+        info: "afwfwaf",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 0,
@@ -83,14 +84,14 @@ const noticias = [
         minititulo: "hola",
         titulo: "dadwdwa",
         miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info:"faefeaf",
+        info: "faefeaf",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
         likes: 0,
     },
 ];
 
-export default noticias; 
+export default noticias;
 
 
 /*{
@@ -107,4 +108,4 @@ export default noticias;
         likes: 0,
         comentarios: [],
         destacado: false,
-    },*/ 
+    },*/
