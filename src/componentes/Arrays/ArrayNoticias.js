@@ -24,15 +24,15 @@ const noticias = [
     },
     {
         id: 3,
-        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
-        minititulo: "hola",
-        titulo: "dadwdwa",
-        miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info: "fwafw",
+        imagen: "https://media.tycsports.com/files/2024/09/23/769284/israel-damonte-previa-_862x485.webp?v=1",
+        minititulo: "Crisis en Junín",
+        titulo: "Sarmiento despide a su DT tras una racha desastrosa y se hunde en la tabla",
+        miniinfo: "El Verde de Junín decidió cortar por lo sano tras una campaña alarmante: solo 4 triunfos en 28 fechas.",
+        info: "Sarmiento de Junín atraviesa uno de los momentos más delicados de su historia reciente. La dirigencia tomó la decisión de despedir al entrenador luego de caer al último puesto del campeonato, con un balance preocupante: apenas 4 partidos ganados, 5 empatados y 19 derrotas en 28 fechas disputadas. El equipo tiene la peor defensa del torneo con 59 goles en contra y apenas ha convertido 26. La crisis deportiva se refleja también en lo anímico, y en las últimas horas se filtraron tensiones en el vestuario. Ahora, la institución busca un reemplazo urgente para encarar las últimas seis fechas y evitar un descenso que parece inminente.",
         autor: "Juan Pérez",
         fecha: "2025-01-07",
-        categoria: "Ciencia",
-        likes: 0,
+        categoria: "Fútbol Argentino",
+        likes: 0
     },
     {
         id: 4,
