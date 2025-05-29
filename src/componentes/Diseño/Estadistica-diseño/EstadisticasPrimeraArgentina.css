@@ -3,36 +3,32 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-color: #f5f8fa; /* Fondo claro y suave */
+    background-color: #f5f8fa;
     padding: 20px;
-    /* border-radius: 8px;  <-- Quitado */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .titulo-principal {
     font-size: 28px;
     margin-bottom: 25px;
-    color: #2c3e50; /* Gris oscuro */
+    color: #2c3e50;
 }
 
 .tabla-de-posiciones {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 4px; /* pequeño espacio entre filas */
+    border-spacing: 0 4px;
     background-color: transparent;
-    /* border-radius: 8px;  <-- Quitado */
-    box-shadow: none;
 }
 
-.tabla-de-posiciones th, 
+.tabla-de-posiciones th,
 .tabla-de-posiciones td {
     padding: 14px 18px;
     text-align: left;
     border-bottom: none;
-    color: #34495e; /* Gris azulado */
-    background-color: #ffffff; /* fondo blanco para celdas */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    /* border-radius: 0;  <-- Explicitamente sin radio */
+    color: #34495e;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .tabla-de-posiciones th {
@@ -42,34 +38,44 @@
     box-shadow: none;
 }
 
-/* Elimina el borde redondeado de las filas */
 .datos-de-equipos td {
     border-radius: 0;
 }
 
-/* Colores y barra lateral para las posiciones */
+/* ✅ UNIFICADO: colores y barra lateral por posición */
 .equipo-libertadores td {
-    background-color: #d4f0d4; /* verde claro */
+    background-color: #d4f0d4;
+}
+.equipo-libertadores td:first-child {
+    border-left: 6px solid #27ae60;
 }
 
 .equipo-sudamericana td {
-    background-color: #fff3d6; /* amarillo pastel */
+    background-color: #fff3d6;
+}
+.equipo-sudamericana td:first-child {
+    border-left: 6px solid #f39c12;
 }
 
 .equipo-descenso td {
-    background-color: #f9d6d6; /* rojo pastel */
+    background-color: #f9d6d6;
+}
+.equipo-descenso td:first-child {
+    border-left: 6px solid #c0392b;
 }
 
-.equipo-libertadores .posicion {
-    border-left: 6px solid #27ae60; /* verde */
+.equipo-ascenso-directo td {
+    background-color: #b3ffb3;
+}
+.equipo-ascenso-directo td:first-child {
+    border-left: 6px solid #2ecc71;
 }
 
-.equipo-sudamericana .posicion {
-    border-left: 6px solid #f39c12; /* naranja */
+.equipo-reducido td {
+    background-color: #fff3b3;
 }
-
-.equipo-descenso .posicion {
-    border-left: 6px solid #c0392b; /* rojo */
+.equipo-reducido td:first-child {
+    border-left: 6px solid #f1c40f;
 }
 
 /* Imagen y texto del equipo alineados */
@@ -88,4 +94,28 @@
 .nombre-de-club {
     font-weight: 700;
     color: #2c3e50;
+}
+
+.botones-de-tabla {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.botones-de-tabla button {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botones-de-tabla button:hover {
+    background-color: #d0d7da;
 }

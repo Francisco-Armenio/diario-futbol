@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import primera from "../Arrays/ArrayPrimeraDivicion";
+import ascenso from "../Arrays/ArrayAscenso";
 
 const EstadisticasPrimeraArgentina = () => {
-    return (
-        <div className='estadisticas-primera-divicion'>
-            <h1 className='titulo-principal'>Estadísticas Primera División</h1>
+    const [mostrarTabla, setMostrarTabla] = useState('primera');
+
+    const renderTabla = (equipos, titulo, tipo) => (
+        <div className='seccion-de-tabla'>
+            <h1 className='titulo-principal'>{titulo}</h1>
             <table className='tabla-de-posiciones'>
                 <thead className='listado'>
                     <tr className='categoria'>
@@ -18,15 +21,27 @@ const EstadisticasPrimeraArgentina = () => {
                     </tr>
                 </thead>
                 <tbody className='listado-de-equipos'>
-                    {primera.map((equipo) => {
+                    {equipos.map((equipo) => {
                         let clasePosicion = "";
 
-                        if (equipo.posicion >= 1 && equipo.posicion <= 6) {
-                            clasePosicion = "equipo-libertadores";
-                        } else if (equipo.posicion >= 7 && equipo.posicion <= 12) {
-                            clasePosicion = "equipo-sudamericana";
-                        } else if (equipo.posicion >= 21 && equipo.posicion <= 28) {
-                            clasePosicion = "equipo-descenso";
+                        if (tipo === 'primera') {
+                            if (equipo.posicion >= 1 && equipo.posicion <= 6) {
+                                clasePosicion = "equipo-libertadores";
+                            } else if (equipo.posicion >= 7 && equipo.posicion <= 12) {
+                                clasePosicion = "equipo-sudamericana";
+                            } else if (equipo.posicion >= 21 && equipo.posicion <= 28) {
+                                clasePosicion = "equipo-descenso";
+                            }
+                        }
+
+                        if (tipo === 'ascenso') {
+                            if (equipo.posicion === 1) {
+                                clasePosicion = "equipo-ascenso-directo";
+                            } else if (equipo.posicion >= 2 && equipo.posicion <= 5) {
+                                clasePosicion = "equipo-reducido";
+                            } else if (equipo.posicion >= 19 && equipo.posicion <= 24) {
+                                clasePosicion = "equipo-descenso";
+                            }
                         }
 
                         return (
@@ -46,6 +61,18 @@ const EstadisticasPrimeraArgentina = () => {
                     })}
                 </tbody>
             </table>
+        </div>
+    );
+
+    return (
+        <div className='estadisticas-primera-divicion'>
+            <div className='botones-de-tabla'>
+                <button onClick={() => setMostrarTabla('primera')}>Primera División</button>
+                <button onClick={() => setMostrarTabla('ascenso')}>Ascenso</button>
+            </div>
+
+            {mostrarTabla === 'primera' && renderTabla(primera, "Estadísticas Primera División", 'primera')}
+            {mostrarTabla === 'ascenso' && renderTabla(ascenso, "Estadísticas Ascenso", 'ascenso')}
         </div>
     );
 };
