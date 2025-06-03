@@ -17,7 +17,7 @@ import './componentes/Diseño/Agenda-diseño/Agenda.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar/Navbar';
 import PaginaPrincipal from './componentes/PaginaPrincipal';
-import NoticiaDetalle from "./componentes/NoticiasExtendida"
+import NoticiaDetalle from "./componentes/NoticiasExtendida";
 import Estadisticas from './componentes/Estadisticas/Estadisticas';
 import PrimeraExtendida from './componentes/Primera/PrimeraExtendida';
 import PrimeraPrincipal from './componentes/Primera/PrimeraPrincipal';
@@ -34,16 +34,17 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
-        <Route path="/noticia/:id" element={<NoticiaDetalle />} />
         <Route path="/estadisticas" element={<Estadisticas />} />
         <Route path="/agenda" element={<Agenda />} />
         <Route path="/primera" element={<PrimeraPrincipal />} />
         <Route path="/ascenso" element={<AscensoPrincipal />} />
-        <Route path="/ascenso/:id" element={<SegundaExtendida/>}/>
         <Route path="/partidosSegunda" element={<PartidosDeSegunda />} />
-        <Route path="/partidosSegunda/:id" element={<DatosDelPartidoAscenso />} />
+
+        <Route path="/noticia/:id" element={<NoticiaDetalle />} />
         <Route path="/primera/:id" element={<PrimeraExtendida />} />       
         <Route path="/partido/:id" element={<PrimeraDatosPrincipal />} />
+        <Route path="/ascenso/:id" element={<SegundaExtendida />} />
+        <Route path="/partidosSegunda/:id" element={<DatosDelPartidoAscenso />} />
       </Routes>
     </BrowserRouter>
   );

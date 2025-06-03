@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventosAscenso = ({ eventos }) => {
     if (!eventos || eventos.length === 0) {
-        return <p className="sin-eventos">No hay eventos registrados.</p>;
+        return <p className="mensaje-no-cambios">No hay eventos registrados.</p>;
     }
 
     return (

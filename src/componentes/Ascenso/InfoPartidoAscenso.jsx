@@ -2,7 +2,7 @@ import React from 'react'
 
 const InfoPartidoAscenso = ({ partido }) => {
     if (!partido || !partido.cambios) {
-        return <p className='no hay cambios registrados'>No hay cambios registrados.</p>;
+        return <p className='mensaje-no-cambios'>No hay cambios registrados.</p>;
     }
 
     const cambiosLocal = partido.cambios.filter(cambio => cambio.equipo === 'Local');

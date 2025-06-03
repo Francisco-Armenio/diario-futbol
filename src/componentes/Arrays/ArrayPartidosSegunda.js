@@ -138,6 +138,124 @@ const partidosAscenso = [
         minuto: "68'",
         resultado1: 3,
         resultado2: 2,
+        eventos: [
+            { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Local', asistencia: 'Barco' },
+            { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'Visitante' },
+            { tipo: 'gol', jugador: 'Borja', minuto: 30, equipo: 'Local', asistencia: 'Advíncula' },
+            { tipo: 'gol', jugador: 'Merentiel', minuto: 76, equipo: 'visitante', asistencia: 'Zenón' }
+        ],
+        cambios: [
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+        ],
+        estadisticas:{
+            posesionLocal: 60,
+            posesionVisitante: 40,
+            tirosAlArcoLocal: 5,
+            tirosAlArcoVisitante: 2,
+            disparosTotalesLocal: 12,
+            disparosTotalesVisitante: 8,
+            duelosGanadosLocal: 20,
+            duelosGanadosVisitante: 18,
+            faltasLocal: 10,
+            faltasVisitante: 12
+        },
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 15,
@@ -149,6 +267,124 @@ const partidosAscenso = [
         minuto: "68'",
         resultado1: 3,
         resultado2: 2,
+        eventos: [
+            { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Local', asistencia: 'Barco' },
+            { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'Visitante' },
+            { tipo: 'gol', jugador: 'Borja', minuto: 30, equipo: 'Local', asistencia: 'Advíncula' },
+            { tipo: 'gol', jugador: 'Merentiel', minuto: 76, equipo: 'visitante', asistencia: 'Zenón' }
+        ],
+        cambios: [
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+        ],
+        estadisticas:{
+            posesionLocal: 60,
+            posesionVisitante: 40,
+            tirosAlArcoLocal: 5,
+            tirosAlArcoVisitante: 2,
+            disparosTotalesLocal: 12,
+            disparosTotalesVisitante: 8,
+            duelosGanadosLocal: 20,
+            duelosGanadosVisitante: 18,
+            faltasLocal: 10,
+            faltasVisitante: 12
+        },
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 16,
@@ -160,6 +396,124 @@ const partidosAscenso = [
         minuto: "68'",
         resultado1: 3,
         resultado2: 2,
+        eventos: [
+            { tipo: 'gol', jugador: 'Cavani', minuto: 15, equipo: 'Local', asistencia: 'Barco' },
+            { tipo: 'amarilla', jugador: 'Barco', minuto: 23, equipo: 'Visitante' },
+            { tipo: 'gol', jugador: 'Borja', minuto: 30, equipo: 'Local', asistencia: 'Advíncula' },
+            { tipo: 'gol', jugador: 'Merentiel', minuto: 76, equipo: 'visitante', asistencia: 'Zenón' }
+        ],
+        cambios: [
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+            { jugadorSaliente: 'Medina', jugadorEntrante: 'Payero', minuto: 60, equipo: 'Local' },
+            { jugadorSaliente: 'Blanco', jugadorEntrante: 'De la Vega', minuto: 65, equipo: 'Visitante' },
+        ],
+        estadisticas:{
+            posesionLocal: 60,
+            posesionVisitante: 40,
+            tirosAlArcoLocal: 5,
+            tirosAlArcoVisitante: 2,
+            disparosTotalesLocal: 12,
+            disparosTotalesVisitante: 8,
+            duelosGanadosLocal: 20,
+            duelosGanadosVisitante: 18,
+            faltasLocal: 10,
+            faltasVisitante: 12
+        },
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 17,
@@ -169,6 +523,100 @@ const partidosAscenso = [
         equipo2: "Huracan",
         estado: "Proximo",
         fecha: "19:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 18,
@@ -178,6 +626,100 @@ const partidosAscenso = [
         equipo2: "Aldosivi",
         estado: "Proximo",
         fecha: "19:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 19,
@@ -187,6 +729,100 @@ const partidosAscenso = [
         equipo2: "Central Cordoba(Sda)",
         estado: "Proximo",
         fecha: "19:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 20,
@@ -196,6 +832,100 @@ const partidosAscenso = [
         equipo2: "San Martin(Tucuman)",
         estado: "Proximo",
         fecha: "19:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 21,
@@ -205,6 +935,100 @@ const partidosAscenso = [
         equipo2: "Patronato",
         estado: "Proximo",
         fecha: "21:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 22,
@@ -214,6 +1038,100 @@ const partidosAscenso = [
         equipo2: "Agropecuario",
         estado: "Proximo",
         fecha: "21:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 23,
@@ -223,6 +1141,100 @@ const partidosAscenso = [
         equipo2: "San Martin(SJ)",
         estado: "Proximo",
         fecha: "21:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
     {
         id: 24,
@@ -232,6 +1244,100 @@ const partidosAscenso = [
         equipo2: "All Boys",
         estado: "Proximo",
         fecha: "21:00",
+        ultimosPartidosLocal: [
+            {
+                termino: "derrota",
+                local: 'Boca Juniors',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ],
+        ultimosPartidosVisitante: [
+            {
+                termino: "victoria",
+                local: 'Lanus',
+                visitante: 'Argentinos Juniors',
+                golesLocal: 4,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-argentinos.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Rosario Central',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-rosario-central.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Boca Juniors',
+                visitante: 'Patronato',
+                golesLocal: 2,
+                golesVisitante: 0,
+                escudoLocal: 'https://link-a-imagen-de-boca.com',
+                escudoVisitante: 'https://link-a-imagen-de-patronato.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Independiente',
+                visitante: 'Boca Juniors',
+                golesLocal: 0,
+                golesVisitante: 1,
+                escudoLocal: 'https://link-a-imagen-de-independiente.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            },
+            {
+                termino: "victoria",
+                local: 'Racing Club',
+                visitante: 'Boca Juniors',
+                golesLocal: 1,
+                golesVisitante: 2,
+                escudoLocal: 'https://link-a-imagen-de-racing.com',
+                escudoVisitante: 'https://link-a-imagen-de-boca.com'
+            }
+        ]
     },
 ]
 

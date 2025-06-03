@@ -2,7 +2,7 @@ import React from 'react'
 
 const OportunidadesAscenso = ({ partido }) => {
     if (!partido || !partido.estadisticas) {
-        return <p className='no-hay-oportunidades'>No hay estadísticas disponibles.</p>;
+        return <p className='mensaje-no-cambios'>No hay estadísticas disponibles.</p>;
     }
 
     const { estadisticas } = partido;
