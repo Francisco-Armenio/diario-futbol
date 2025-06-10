@@ -27,7 +27,7 @@ const NavbarPaginaPrincipal = () => {
                             <Link to="/ascenso" className='menu-item-link'>ASCENSO</Link>
                         </li>
                         <li className='navbar-menu-item'>
-                            <Link to="/" className='menu-item-link'>LIBERTADORES</Link>
+                            <Link to="/libertadores" className='menu-item-link'>LIBERTADORES</Link>
                         </li>
                         <li className='navbar-menu-item'>
                             <Link to="/" className='menu-item-link'>INTERNACIONAL</Link>
