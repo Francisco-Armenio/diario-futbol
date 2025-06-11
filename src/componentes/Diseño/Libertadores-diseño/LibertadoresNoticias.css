@@ -1,33 +1,33 @@
 .botones-seccion {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .botones-seccion button {
-  flex: 1;
-  padding: 0.6rem 1.2rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #444;
-  background: #f0f0f0;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #444;
+    background: #f0f0f0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .botones-seccion button:hover {
-  background: #e1e7f5;
-  color: #1a73e8;
-  box-shadow: 0 4px 10px rgba(26, 115, 232, 0.3);
+    background: #e1e7f5;
+    color: #1a73e8;
+    box-shadow: 0 4px 10px rgba(26, 115, 232, 0.3);
 }
 
 .botones-seccion button.activo {
-  background: #1a73e8;
-  color: white;
-  border-color: #155ab6;
-  box-shadow: 0 6px 12px rgba(26, 115, 232, 0.6);
-  font-weight: 700;
+    background: #1a73e8;
+    color: white;
+    border-color: #155ab6;
+    box-shadow: 0 6px 12px rgba(26, 115, 232, 0.6);
+    font-weight: 700;
 }

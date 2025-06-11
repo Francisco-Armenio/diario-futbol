@@ -1,150 +1,185 @@
-/* Estilo general */
+/* CONTENEDOR GENERAL */
 .libertadores {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   padding: 2rem;
+  box-sizing: border-box;
+  background: #f9f9f9;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
 }
 
+/* TÍTULO */
 .titulo {
   text-align: center;
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-  color: #d11f2c;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1e1e1e;
 }
 
-/* Selector de fases */
+/* BOTONES DE FASE */
 .fase-selector {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .fase-selector button {
-  padding: 0.6rem 1.2rem;
+  background: #eeeeee;
   border: none;
-  background-color: #e6e6e6;
-  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
   cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s;
+  transition: all 0.3s ease;
+  font-size: 1rem;
 }
 
 .fase-selector .activo {
-  background-color: #d11f2c;
+  background-color: #007BFF;
   color: white;
+  transform: scale(1.05);
 }
 
-/* Tarjetas */
+/* CONTENIDO DE LA FASE */
 .contenido-fase {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* TARJETA DE GRUPO O ELIMINATORIA */
 .tarjeta-fase {
-  background: white;
+  background-color: #ffffff;
+  border-radius: 10px;
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Grupos */
+/* GRUPO */
 .grupo {
-  font-size: 1.4rem;
-  color: #333;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: #222;
 }
 
-/* Tabla */
+/* TABLA DE POSICIONES */
 .tabla-posiciones {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  width: 100%;
 }
 
 .fila {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr repeat(6, 1fr);
   align-items: center;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
 }
 
-.encabezado {
-  background-color: #d11f2c;
-  color: white;
+.fila.encabezado {
   font-weight: bold;
+  background-color: #f0f0f0;
 }
 
 .clasificado {
-  background-color: #e0f2ff;
-  font-weight: bold;
+  background-color: #e0f7e0;
+  font-weight: 600;
 }
 
 .col.equipo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  flex: 2;
-}
-
-.fila span {
-  flex: 1;
-  text-align: center;
 }
 
 .escudo {
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
   object-fit: contain;
 }
 
-/* Eliminatorias */
+/* ELIMINATORIA */
 .duelo-eliminatoria {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  gap: 1rem;
-  padding: 1rem;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  background-color: #fefefe;
+  width: 100%;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .equipo {
-  flex: 1;
-  min-width: 130px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 40%;
+}
+
+.equipo-derecho {
+  flex-direction: row-reverse;
 }
 
 .escudo.grande {
   width: 50px;
   height: 50px;
+  object-fit: contain;
 }
 
+
 .vs {
+  width: 10%;
+  text-align: center;
+  font-size: 1rem;
   font-weight: bold;
-  font-size: 1.2rem;
   color: #555;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .fila {
-    font-size: 0.85rem;
-  }
+.duelo-eliminatoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 8px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
 
-  .escudo.grande {
-    width: 40px;
-    height: 40px;
-  }
+.bloque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  padding: 0.3rem;
+  text-align: center;
+}
 
-  .fase-selector button {
-    font-size: 0.85rem;
-  }
+.bloque1 img {
+  width: 40px;
+  height: 40px;
+}
+
+.nombre-libertadores-eliminatoria {
+  font-size: 0.9rem;
+  font-weight: bold;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.resultado-libertadores-eliminatorias,
+.global-libertadores-eliminatoria {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bloque-vs {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c0392b;
+  padding: 0 0.5rem;
 }

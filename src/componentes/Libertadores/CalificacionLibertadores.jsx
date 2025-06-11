@@ -64,20 +64,58 @@ const CalificacionLibertadores = () => {
                             </>
                         ) : (
                             <div className="duelo-eliminatoria">
-                                <div className="equipo">
-                                    <img src={item.imagen1} alt={item.nombre1} className="escudo grande" />
-                                    <strong>{item.nombre1}</strong>
-                                    <p>{item.resultado1}</p>
-                                    {'global1' in item && <p>Global: {item.global1}</p>}
-                                </div>
-                                <span className="vs">VS</span>
-                                <div className="equipo">
-                                    <img src={item.imagen2} alt={item.nombre2} className="escudo grande" />
-                                    <strong>{item.nombre2}</strong>
-                                    <p>{item.resultado2}</p>
-                                    {'global2' in item && <p>Global: {item.global2}</p>}
-                                </div>
-                            </div>
+  {/* Bloque 1: Imagen equipo 1 */}
+  <div className="bloque bloque1">
+    <img src={item.imagen1} alt={item.nombre1} className="escudo grande" />
+  </div>
+
+  {/* Bloque 2: Nombre equipo 1 */}
+  <div className="bloque bloque2">
+    <strong className="nombre-libertadores-eliminatoria">{item.nombre1}</strong>
+  </div>
+
+  {/* Bloque 3: Resultado equipo 1 */}
+  <div className="bloque bloque3">
+    <p className="resultado-libertadores-eliminatorias">{item.resultado1}</p>
+  </div>
+
+  {/* Bloque 4: Global equipo 1 */}
+  <div className="bloque bloque4">
+    {'global1' in item && (
+      <p className="global-libertadores-eliminatoria">{item.global1}</p>
+    )}
+  </div>
+
+  {/* VS */}
+  <div className="bloque bloque-vs">
+    <span className="vs">VS</span>
+  </div>
+
+  {/* Bloque 4: Global equipo 2 */}
+  <div className="bloque bloque4">
+    {'global2' in item && (
+      <p className="global-libertadores-eliminatoria">{item.global2}</p>
+    )}
+  </div>
+
+  {/* Bloque 3: Resultado equipo 2 */}
+  <div className="bloque bloque3">
+    <p className="resultado-libertadores-eliminatorias">{item.resultado2}</p>
+  </div>
+
+  {/* Bloque 2: Nombre equipo 2 */}
+  <div className="bloque bloque2">
+    <strong className="nombre-libertadores-eliminatoria">{item.nombre2}</strong>
+  </div>
+
+  {/* Bloque 1: Imagen equipo 2 */}
+  <div className="bloque bloque1">
+    <img src={item.imagen2} alt={item.nombre2} className="escudo grande" />
+  </div>
+</div>
+
+
+
                         )}
                     </div>
                 ))}
