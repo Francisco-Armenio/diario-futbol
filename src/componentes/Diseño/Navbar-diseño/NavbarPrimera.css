@@ -8,7 +8,6 @@
   
 }
 
-/* ✅ NO TOCAR - PARTE DE REDES */
 .mis-redes {
   display: flex;
   align-items: center;
@@ -38,7 +37,6 @@
   width: 20px;
 }
 
-/* ✅ NO TOCAR - PARTE DE LOGO */
 .navbar-logo-primera {
   display: flex;
   align-items: center;
@@ -63,7 +61,6 @@
   height: auto;
 }
 
-/* ✅ CAMBIO PEDIDO: equipos uno al lado del otro */
 .equipo-navbar-primera {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +86,6 @@
   background-color: #7c6cff;
 }
 
-/* ✅ CAMBIO PEDIDO: noticias en la misma línea */
 .noticias-dia-primera {
   display: flex;
   flex-direction: row;

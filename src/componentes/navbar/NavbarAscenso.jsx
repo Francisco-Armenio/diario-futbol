@@ -16,43 +16,28 @@ const NavbarAscenso = () => {
     };
 
     return (
-        <div className='navbar-ascenso'>
-            <div className='mis-redes-parte-izquierda'>
-                <a href="https://www.linkedin.com/in/francisco-armenio/" className='perfil-linkedin'>
-                    <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="Logo de Linkedin" />
-                </a>
-                <a href="https://github.com/Francisco-Armenio" className='perfil-github'>
-                    <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="Logo de Github" />
-                </a>
-                <p className='mi-gmail'>
-                    franciscoarmenio1@gmail.com
-                    <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Logo de Gmail" />
-                </p>
+        <div className='navbar'>
+            <div className='navbar-superior'>
+                <div className='mis-redes-parte-izquierda'>
+                    <a href="https://www.linkedin.com/in/francisco-armenio/" className='perfil-linkedin'><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="Logo de Linkedin" /></a>
+                    <a href="https://github.com/Francisco-Armenio" className='perfil-github'><img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="Logo de Github" /></a>
+                    <p className='mi-gmail'>franciscoarmenio1@gmail.com<img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Logo de Gmail" /></p>
+                </div>
+                <div className='informacion-ligas-parte-derecha'>
+                    <Link to="/estadisticas" className='estadisticas'><img src="https://cdn-icons-png.flaticon.com/128/15594/15594544.png" alt="Estadisticas" />Estadiscticas</Link>
+                    <Link to="/agenda" className='agenda'><img src="https://cdn-icons-png.flaticon.com/128/2738/2738169.png" alt="Agenda" />Agenda</Link>
+                </div>
             </div>
-
-            <div className='navbar-logo-ascenso'>
-                <Link to="/" className='logo-ascenso'>Futbol para todos</Link>
-                <img className='logo-ligas-profecionales' src="https://image-service.onefootball.com/transform?w=128&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/164.png" alt="Primera Nacional" />
-                <h2 className='titulo-ascenso'>Primera Nacional</h2>
+            <div className='navbar-central'>
+                <Link to="/" className='logo'>Futbol para todos</Link>
+                <img className='logo-ligas-profecionales' src="https://api.promiedos.com.ar/images/league/ebj/1" alt="Primera Nacional" />
+                <h2 className='titulo-primera'>Primera Nacional</h2>
             </div>
-
-            <div className='noticias-dia-ascenso'>
-                {equipoSeleccionado ? (
-                    <>
-                        <h2>Noticias de {equipoSeleccionado}</h2>
-                        {noticiasPorEquipo[equipoSeleccionado.toLowerCase()]?.map((noticia, i) => (
-                            <p key={i}>{noticia}</p>
-                        ))}
-                        <button onClick={volverANoticiasGenerales}>Volver a noticias generales</button>
-                    </>
-                ) : (
-                    <>
-                        <h2 className='noticia-del-dia-navbar-ascenso'>Noticia del día</h2>
-                        <p className='mini-noticia-ascenso'>📢 Quilmes se prepara para el torneo</p>
-                        <p className='mini-noticia-ascenso'>⚽ Ferro enfrenta a All Boys</p>
-                        <p className='mini-noticia-ascenso'>🔥 Chicago arranca con todo</p>
-                    </>
-                )}
+            <div className='navbar-inferior'>
+                <p className='noticia-del-dia'>Noticias del dia:</p>
+                <Link className='mini-noticia' to="/">a definir</Link>
+                <Link className='mini-noticia' to="/">a definir</Link>
+                <Link className='mini-noticia' to="/">a definir</Link>
             </div>
 
             <div className='equipo-navbar-ascenso'>

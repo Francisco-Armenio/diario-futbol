@@ -3,7 +3,7 @@ import CalificacionLibertadores from './CalificacionLibertadores';
 import NoticiasLibertadores from './NoticiasLibertadores';
 
 const Libertadores = () => {
-  const [seccionActiva, setSeccionActiva] = useState('noticias'); // ← Cambiado a 'noticias'
+  const [seccionActiva, setSeccionActiva] = useState('noticias'); 
 
   return (
     <div className="libertadores-container">

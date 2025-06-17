@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-
-const NavbarPaginaPrincipal = () => {
+const NavbarLibertadores = () => {
     return (
         <div className='navbar'>
             <div className='navbar-superior'>
@@ -17,29 +16,17 @@ const NavbarPaginaPrincipal = () => {
                 </div>
             </div>
             <div className='navbar-central'>
-                    <Link to="/" className='logo'>Futbol para todos</Link>
-                <div className='navbar-menu'>
-                    <ul className='navbar-menu-lista'>
-                        <li className='navbar-menu-item'>
-                            <Link to="/primera" className='menu-item-link'>PRIMERA</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/ascenso" className='menu-item-link'>ASCENSO</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/libertadores" className='menu-item-link'>LIBERTADORES</Link>
-                        </li>
-                    </ul>
-                </div>
+                <Link to="/" className='logo'>Futbol para todos</Link>
+                <img className='logo-ligas-profecionales' src="https://api.promiedos.com.ar/images/league/bac/1" alt="Primera Nacional" />
+                <h2 className='titulo-primera'>Libertadores</h2>
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
                 <Link className='mini-noticia' to="/">a definir</Link>
                 <Link className='mini-noticia' to="/">a definir</Link>
                 <Link className='mini-noticia' to="/">a definir</Link>
-            </div>
-        </div>
+            </div></div>
     )
 }
 
-export default NavbarPaginaPrincipal
+export default NavbarLibertadores

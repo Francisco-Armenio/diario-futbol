@@ -1,18 +1,14 @@
-/* 🎨 Fondo principal con color de estilo ascenso */
 .navbar-ascenso {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 25px;
     background-color: #1d2d2f;
-    /* ✅ Fondo verde oscuro */
     color: #ffffff;
-    /* ✅ Texto blanco */
     padding: 1rem;
     border-radius: 1rem;
 }
 
-/* ✅ Redes en línea al tope y a la izquierda */
 .mis-redes-parte-izquierda {
     display: flex;
     align-items: center;
@@ -35,7 +31,6 @@
     color: #ccc;
 }
 
-/* ✅ Logo debajo de redes, alineado a la izquierda y en línea */
 .navbar-logo-ascenso {
     display: flex;
     align-items: center;
@@ -48,7 +43,6 @@
     font-size: 1.8rem;
     font-weight: bold;
     color: #ffffff;
-    /* ✅ Blanco */
     text-decoration: none;
 }
 
@@ -60,35 +54,29 @@
 .titulo-ascenso {
     font-size: 1.4rem;
     color: #a8ff60;
-    /* ✅ Verde ascenso */
     font-weight: bold;
 }
 
-/* ✅ Noticias debajo del logo, alineadas a la izquierda */
 .noticias-dia-ascenso {
     display: flex;
     flex-direction: row;
-    /* ✅ Alineación horizontal */
     align-items: center;
     gap: 20px;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 15px;
     flex-wrap: wrap;
-    /* Por si se achica la pantalla */
 }
 
 .noticia-del-dia-navbar-ascenso {
     font-size: 1.5rem;
     font-weight: bold;
     color: #a8ff60;
-    /* ✅ Verde ascenso */
 }
 
 .mini-noticia-ascenso {
     font-size: 1.1rem;
     color: #f0f0f0;
-    /* ✅ Gris claro */
     margin: 0;
 }
 
@@ -101,14 +89,12 @@
     border-radius: 4px;
     cursor: pointer;
     margin-left: auto;
-    /* Empuja el botón al final si hay espacio */
 }
 
 .noticias-dia-ascenso button:hover {
     background-color: #82cc4c;
 }
 
-/* ✅ Equipos - NO TOCAR */
 .equipo-navbar-ascenso {
     width: 100%;
     margin-top: 20px;
@@ -127,8 +113,4 @@
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
-}
-
-.equipos-ascenso img.escudo-equipo-ascenso:hover {
-    transform: scale(1.1);
 }

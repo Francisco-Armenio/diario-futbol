@@ -16,26 +16,8 @@ const NavbarEstadisticas = () => {
                 </div>
             </div>
             <div className='navbar-central'>
-                    <Link to="/" className='logo'>Futbol para todos</Link>
-                <div className='navbar-menu'>
-                    <ul className='navbar-menu-lista'>
-                        <li className='navbar-menu-item'>
-                            <Link to="/primera" className='menu-item-link'>PRIMERA</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/ascenso" className='menu-item-link'>ASCENSO</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/" className='menu-item-link'>LIBERTADORES</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/" className='menu-item-link'>INTERNACIONAL</Link>
-                        </li>
-                        <li className='navbar-menu-item'>
-                            <Link to="/" className='menu-item-link'>SELECCION</Link>
-                        </li>
-                    </ul>
-                </div>
+                <Link to="/" className='logo'>Futbol para todos</Link>
+                <h2 className='titulo-primera'>Estadísticas deportivas</h2>
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>

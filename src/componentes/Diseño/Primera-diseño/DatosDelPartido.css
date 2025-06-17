@@ -1,82 +1,49 @@
-.mensaje-no-cambios,
-.mensaje-no-estadisticas,
-.mensaje-no-cambios{
-    background-color: #f2f2f2;
-    border-left: 6px solid #888;
-    padding: 16px 20px;
-    border-radius: 10px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #555;
-    font-size: 16px;
-    margin: 20px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: background-color 0.3s ease;
-}
-
-.mensaje-no-cambios:hover,
-.mensaje-no-estadisticas:hover {
-    background-color: #e8e8e8;
-}
-
-
-/* Estilo principal */
+/*-----Datos del Partido-----*/
 .datos-partido {
-    background: #f4f1e1; /* Color beige suave, inspirado en la arena */
-    border-radius: 20px;
-    padding: 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    margin: 2rem auto;
-    max-width: 900px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('https://images.unsplash.com/photo-1579157597841-98a3196c87cc'); /* Fondo inspirado en la naturaleza */
-    background-size: cover;
-    color: #3e3e3e; /* Color oscuro para el texto */
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .logotipo {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    color: #6e4b3a; /* Color marrón, como la tierra */
+    margin-bottom: 25px;
+    gap: 15px;
 }
 
 .imagen-dato {
     width: 50px;
     height: 50px;
-    object-fit: contain;
 }
 
 .titulo-dato {
     font-size: 1.8rem;
-    font-weight: 600;
-    color: #4f3b2f; /* Color marrón más oscuro */
+    font-weight: bold;
+    color: #1d3557;
 }
 
 .info-partido-dato {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    background: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
-    border: 2px solid #a89f91; /* Marrón claro */
-    padding: 1rem;
-    border-radius: 12px;
-    margin-top: 1rem;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    gap: 12px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .equipo1-dato,
 .equipo2-dato {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #6e4b3a;
-    width: 100px;
+    width: 120px;
     text-align: center;
+    color: #343a40;
 }
 
 .imagen1-dato,
@@ -87,112 +54,109 @@
 }
 
 .resultado1-dato {
-    font-size: 2rem;
+    width: 40px;
+    text-align: center;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: #3e3e3e;
+    color: #000;
 }
 
 .separador {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: #8d6e63; /* Color marrón suave */
+    margin: 0 4px;
 }
 
 .info-partido-tiempo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1.2rem;
-    padding: 0.5rem 1rem;
-    background-color: #6f9d63; /* Verde animalista */
-    color: white;
-    border-radius: 12px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 20px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #6c757d;
 }
 
 .info-partido-estado {
     font-weight: bold;
-    background: white;
-    color: #6f9d63;
-    padding: 0.2rem 0.6rem;
-    border-radius: 6px;
-    font-size: 0.9rem;
+    color: #28a745;
 }
 
 .info-partido-minuto {
-    font-size: 1rem;
+    color: #dc3545;
 }
 
-/* Estilo de la sección de cambios */
+/*-----Informacion del Partido-----*/
+
 .informacion-detallada-del-partido {
+    background-color: #fefefe;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 30px 0;
-    padding: 20px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .cambios-local,
 .cambios-visitante {
     flex: 1;
-    background-color: #f4f0e4; /* Color claro y terroso */
-    border: 2px solid #a79b89;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    min-height: 200px;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 .titulo-de-cambios-general {
-    font-size: 22px;
-    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1d3557;
     margin-bottom: 15px;
-    color: #4f3b2f;
-    border-bottom: 1px solid #a89f91;
+    border-bottom: 2px solid #007bff;
     padding-bottom: 8px;
 }
 
 .cambios-local p,
 .cambios-visitante p {
-    font-size: 16px;
+    font-size: 1rem;
     margin: 10px 0;
-    text-align: center;
-    color: #6e4b3a;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cambios-local p::before,
+.cambios-visitante p::before {
+    content: '🔄';
+    font-size: 1.1rem;
+    margin-right: 5px;
 }
 
 .no-hay-cambios-general {
-    text-align: center;
-    color: #888;
+    color: #999;
     font-style: italic;
-    margin-top: 30px;
 }
 
-.no-hay-cambios-general::before {
-    content: "🐾 ";
-}
-
-.no-hay-cambios-registrados {
+.mensaje-no-cambios {
     text-align: center;
-    font-size: 18px;
-    color: #666;
+    font-style: italic;
+    color: #999;
+    margin: 30px 0;
 }
 
-/* Estilos de las oportunidades */
+/*-----Oportunidades del Partido-----*/
+
 .oportunidades-del-partido {
-    padding: 24px;
-    background-color: #f5f8fa;
-    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    font-family: 'Segoe UI', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    max-width: 800px;
-    margin: 0 auto;
+    gap: 30px;
 }
 
 .estadistica-linea {
@@ -203,36 +167,34 @@
 
 .nombre-estadistica {
     font-weight: 600;
-    color: #333;
-    font-size: 16px;
-    text-align: center; /* ← centrado */
-    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #1d3557;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .barra-estadistica {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .valor-local,
 .valor-visitante {
-    font-weight: bold;
-    font-size: 14px;
-    min-width: 40px;
+    font-size: 0.95rem;
+    width: 40px;
     text-align: center;
-    color: #6c757d; /* ← gris para ambos */
+    font-weight: 500;
+    color: #333;
 }
 
 progress {
     appearance: none;
-    -webkit-appearance: none;
     width: 100%;
-    height: 14px;
+    height: 18px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #e0e0e0;
-    flex-grow: 1;
 }
 
 progress::-webkit-progress-bar {
@@ -241,106 +203,110 @@ progress::-webkit-progress-bar {
 }
 
 .progress-local::-webkit-progress-value {
-    background-color: #28a745; /* ← verde para local */
+    background-color: #457b9d;
     border-radius: 10px;
 }
 
 .progress-local::-moz-progress-bar {
-    background-color: #28a745;
+    background-color: #457b9d;
 }
 
+.mensaje-no-cambios {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    margin: 30px 0;
+}
 
-/*ultimos 5 partidos*/
+/*-----Ultimos 5 Partidos-----*/
 
 .ultimos-partidos {
-    padding: 20px;
-    background-color: #f9f9f9; /* fondo suave */
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
-    margin: 20px 0;
+    padding: 25px;
+    background-color: #f0f2f5;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1100px;
 }
 
 .titulo-partidos {
-    text-align: center;
     font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
 }
 
 .partidos-lista {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .partidos-lista h3 {
     font-size: 22px;
-    color: #555;
-    margin-bottom: 15px;
+    color: #444;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .partidos-grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
     justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
 }
 
 .partido {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    width: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 150px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .partido:hover {
-    transform: translateY(-5px);
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Resultado */
 .resultado {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .resultado span {
     padding: 6px 14px;
-    border: 3px solid; /* borde visible */
+    border: 2px solid;
     border-radius: 8px;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    background-color: transparent; /* sin fondo */
 }
 
-/* Colores de resultado */
 .resultado-victoria {
-    color: #28a745; /* verde */
+    color: #28a745;
     border-color: #28a745;
 }
 
 .resultado-empate {
-    color: #ffc107; /* amarillo */
+    color: #ffc107;
     border-color: #ffc107;
 }
 
 .resultado-derrota {
-    color: #dc3545; /* rojo */
+    color: #dc3545;
     border-color: #dc3545;
 }
 
-/* Marcador */
 .marcador {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 8px 0;
     color: #333;
 }
 
-/* Escudos */
 .escudos {
     display: flex;
     justify-content: center;
@@ -349,7 +315,7 @@ progress::-webkit-progress-bar {
 }
 
 .escudos img {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     object-fit: contain;
 }
