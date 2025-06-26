@@ -21,9 +21,9 @@ const NavbarEstadisticas = () => {
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
+                <p className='mini-noticia' >Rafaela cada vez más cerca del título</p>
+                <p className='mini-noticia' >¡Sorpresa! Belgrano se mete en el podio y va por todo</p>
+                <p className='mini-noticia' >Tigre, a 3 del descenso, lucha para no tocar fondo</p>
             </div>
         </div>
     )

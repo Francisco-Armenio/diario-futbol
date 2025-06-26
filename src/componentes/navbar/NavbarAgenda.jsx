@@ -21,9 +21,9 @@ const NavbarAgenda = () => {
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
+                <p className='mini-noticia'>Banfield y Talleres se enfrentan por un lugar en la Libertadores</p>
+                <p className='mini-noticia'>Vélez y Estudiantes (RC), duelo clave por la Sudamericana</p>
+                <p className='mini-noticia'>Lanús no levanta cabeza y se acerca a la zona roja</p>
             </div>
         </div>
     )

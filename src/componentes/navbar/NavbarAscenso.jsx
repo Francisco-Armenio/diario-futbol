@@ -35,9 +35,9 @@ const NavbarAscenso = () => {
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
+                <p className='mini-noticia' >Ferro gana 2-1 a Chacarita en un duelo caliente con 10 por lado</p>
+                <p className='mini-noticia' >Quilmes pierde 3-1 con Godoy Cruz y se aleja del repechaje</p>
+                <p className='mini-noticia' >All Boys activa plan de emergencia por lesiones</p>
             </div>
 
             <div className='equipo-navbar-ascenso'>

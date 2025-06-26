@@ -13,14 +13,14 @@ const noticias = [
 
     {
         id: 2,
-        imagen: "https://www.infobae.com/resizer/v2/3GKINY6VHNHSXOCBHV2VCW4Z5Q?auth=fefde4c7b3f36bc0850a278a3adb721cb7c7b7b22bb784c272cd1db040cb3fb0&smart=true&width=992&height=558&quality=85",
-        minititulo: "hola",
-        titulo: "dadwdwa",
-        miniinfo: "En un hallazgo sin precedentes, investigadores encontraron evidencia de una nueva especie de unicornio...",
-        info: "fwafa",
-        autor: "Juan Pérez",
-        fecha: "2025-01-07",
-        likes: 10,
+        imagen: "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1209%2Fr1425933_1296x729_16%2D9.jpg",
+        minititulo: "primera",
+        titulo: "La liga argentina tendrá 22 equipos en la próxima temporada",
+        miniinfo: "Cada vez más cerca el regreso a una liga de 20 equipos como en los viejos tiempos.",
+        info: "La AFA confirmó que la próxima temporada de la Liga Profesional se jugará con 22 equipos, recortando de a poco la cantidad de participantes. Esta medida sigue el plan de reducción progresiva, con el objetivo de volver a un torneo de 20 clubes como era habitual en décadas pasadas. La decisión generó opiniones divididas, pero ya se habla de que en dos años podría completarse el formato tradicional.",
+        autor: "Redacción FPT",
+        fecha: "Hace 1 dia",
+        likes: 0
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const noticias = [
         miniinfo: "El Verde de Junín decidió cortar por lo sano tras una campaña alarmante: solo 4 triunfos en 28 fechas.",
         info: "Sarmiento de Junín atraviesa uno de los momentos más delicados de su historia reciente. La dirigencia tomó la decisión de despedir al entrenador luego de caer al último puesto del campeonato, con un balance preocupante: apenas 4 partidos ganados, 5 empatados y 19 derrotas en 28 fechas disputadas. El equipo tiene la peor defensa del torneo con 59 goles en contra y apenas ha convertido 26. La crisis deportiva se refleja también en lo anímico, y en las últimas horas se filtraron tensiones en el vestuario. Ahora, la institución busca un reemplazo urgente para encarar las últimas seis fechas y evitar un descenso que parece inminente.",
         autor: "Juan Pérez",
-        fecha: "2025-01-07",
+        fecha: "Hace 1 dia",
         categoria: "Fútbol Argentino",
         likes: 0
     },

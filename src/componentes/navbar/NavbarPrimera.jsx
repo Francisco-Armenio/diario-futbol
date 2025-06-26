@@ -37,9 +37,9 @@ const NavbarPrimera = () => {
       </div>
       <div className='navbar-inferior'>
         <p className='noticia-del-dia'>Noticias del dia:</p>
-        <Link className='mini-noticia' to="/">a definir</Link>
-        <Link className='mini-noticia' to="/">a definir</Link>
-        <Link className='mini-noticia' to="/">a definir</Link>
+        <p className='mini-noticia' >En vivo: Rafaela le gana 2-0 a Newell’s y acaricia el título</p>
+        <p className='mini-noticia' >En vivo: Boca domina 3-1 a Lanús y sueña con el título</p>
+        <p className='mini-noticia' >Estudiantes, con 10, empata 1-1 con Unión y roza el abismo</p>
       </div>
       <div className='futbol-primera'>
         <div className='equipo-navbar-primera'>
