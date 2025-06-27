@@ -22,10 +22,11 @@ const NavbarLibertadores = () => {
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-            </div></div>
+                <p className='mini-noticia' >Cuenta regresiva para los cuartos de final</p>
+                <p className='mini-noticia' >River y Sao Paulo se preparan para un cruce de gigantes por un lugar en semifinales.</p>
+                <p className='mini-noticia' >Los ocho mejores de América afinan detalles</p>
+            </div>
+            </div>
     )
 }
 

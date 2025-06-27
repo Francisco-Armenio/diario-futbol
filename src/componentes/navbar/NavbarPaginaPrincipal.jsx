@@ -34,9 +34,9 @@ const NavbarPaginaPrincipal = () => {
             </div>
             <div className='navbar-inferior'>
                 <p className='noticia-del-dia'>Noticias del dia:</p>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
-                <Link className='mini-noticia' to="/">a definir</Link>
+                <p className='mini-noticia' >Se acercan los cuartos de final de la Libertadores: Boca vs Rafaela, River vs Sao Paulo y más.</p>
+                <p className='mini-noticia' >a definir</p>
+                <p className='mini-noticia' >a definir</p>
             </div>
         </div>
     )

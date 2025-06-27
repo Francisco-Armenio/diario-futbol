@@ -43,7 +43,7 @@ const noticias = [
     miniinfo: "Con varios candidatos firmes y varias sorpresas, terminó la etapa de grupos de la Copa Libertadores 2025.",
     info: "La fase de grupos de la Libertadores 2025 llegó a su fin y dejó definidos los equipos clasificados a la siguiente ronda. Gremio fue el mejor equipo con 15 puntos, seguido de cerca por Santos, São Paulo y UTC con 14. Atlético Rafaela se mantuvo invicto con 12 puntos y una diferencia de gol de +18. Entre las sorpresas, Cerro Porteño se metió entre los mejores dejando atrás a históricos como Olimpia o Peñarol. Boca, River y Gimnasia también lograron avanzar, mientras que equipos como Libertad, Peñarol, Blooming y O’Higgins no lograron sumar triunfos. La competencia se intensifica y ahora los clasificados esperarán el sorteo de la siguiente fase.",
     autor: "Juan Pérez",
-    fecha: "2025-05-26",
+    fecha: "Hace 1 mes",
     likes: 0
     },
 
